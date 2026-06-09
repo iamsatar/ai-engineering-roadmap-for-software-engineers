@@ -1,6 +1,7 @@
 # Projects
 
-Projects are the center of this roadmap. Mini-projects should be small enough to finish in a few days. Capstones should be substantial enough to discuss in interviews.
+Projects are the center of this roadmap. Mini-projects should be small enough to finish in a few
+days. Capstones should be substantial enough to discuss in interviews.
 
 ## Capstone Standard
 
@@ -31,15 +32,15 @@ Build three substantial capstones:
 2. Autonomous PR Review Agent
 3. Agentic Business Workflow Copilot
 
-If you are time-constrained, build one deeply.
-If you want the strongest portfolio signal, build all three.
-For most job applications, two strong capstones are better than three unfinished ones.
+If you are time-constrained, build one deeply. If you want the strongest portfolio signal, build all
+three. For most job applications, two strong capstones are better than three unfinished ones.
 
 ### Optional Infrastructure Capstone
 
 4. LLM Gateway / Router
 
-This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles. It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
+This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles.
+It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
 
 ## Capstone Quality Bar
 
@@ -302,7 +303,8 @@ Add evals and traces to an AI project.
 
 ### What It Teaches
 
-Golden datasets, regression testing, LLM-as-judge limits, traces, cost, latency, and quality monitoring.
+Golden datasets, regression testing, LLM-as-judge limits, traces, cost, latency, and quality
+monitoring.
 
 ### Suggested Stack
 
@@ -515,11 +517,13 @@ Link the red-team report from the project README.
 
 ### Goal
 
-Build a RAG assistant for engineering teams that answers from docs, runbooks, incidents, and code-adjacent knowledge with citations.
+Build a RAG assistant for engineering teams that answers from docs, runbooks, incidents, and
+code-adjacent knowledge with citations.
 
 ### What It Teaches
 
-Production RAG, retrieval evals, citations, observability, permission-aware data access, and enterprise workflow design.
+Production RAG, retrieval evals, citations, observability, permission-aware data access, and
+enterprise workflow design.
 
 ### Suggested Stack
 
@@ -588,11 +592,13 @@ Required README sections:
 
 ### Goal
 
-Build an agent that reviews pull requests, inspects repository context, identifies risks, and drafts review comments for human approval.
+Build an agent that reviews pull requests, inspects repository context, identifies risks, and drafts
+review comments for human approval.
 
 ### What It Teaches
 
-Tool use, agent loops, code reasoning, structured findings, approval gates, and trace-based debugging.
+Tool use, agent loops, code reasoning, structured findings, approval gates, and trace-based
+debugging.
 
 ### Suggested Stack
 
@@ -661,11 +667,13 @@ Required README sections:
 
 ### Goal
 
-Build a workflow copilot that gathers context, calls tools, proposes actions, asks for approval, and records an audit trail.
+Build a workflow copilot that gathers context, calls tools, proposes actions, asks for approval, and
+records an audit trail.
 
 ### What It Teaches
 
-FDE-style workflow analysis, tool permissions, human approval, stateful agents, customer data boundaries, and product UX.
+FDE-style workflow analysis, tool permissions, human approval, stateful agents, customer data
+boundaries, and product UX.
 
 ### Suggested Stack
 
@@ -739,7 +747,8 @@ Build an operational gateway for routing, observing, and controlling LLM usage a
 
 ### What It Teaches
 
-AI platform engineering, provider abstraction, model routing, cost controls, caching, rate limits, fallbacks, tracing, and developer experience.
+AI platform engineering, provider abstraction, model routing, cost controls, caching, rate limits,
+fallbacks, tracing, and developer experience.
 
 ### Suggested Stack
 
@@ -782,7 +791,9 @@ TypeScript, Node.js, LiteLLM optional, Redis optional, Postgres optional, OpenTe
 
 ### README Expectations
 
-Include problem, demo, screenshots or video, architecture, data flow, how it works, setup, environment variables, evaluation, observability, cost and latency, security, known limitations, future improvements, and resume bullets.
+Include problem, demo, screenshots or video, architecture, data flow, how it works, setup,
+environment variables, evaluation, observability, cost and latency, security, known limitations,
+future improvements, and resume bullets.
 
 ### Estimated Time
 

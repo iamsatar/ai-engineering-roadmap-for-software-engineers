@@ -1,17 +1,21 @@
 # Roadmap
 
-This roadmap assumes you are already a capable software engineer. The goal is to add applied AI engineering judgment: how to build systems that use models, tools, retrieval, evaluation, and operations responsibly.
+This roadmap assumes you are already a capable software engineer. The goal is to add applied AI
+engineering judgment: how to build systems that use models, tools, retrieval, evaluation, and
+operations responsibly.
 
 Default learner profile:
 
 - Experienced software engineer
 - Comfortable with Git, APIs, CI/CD, frontend/backend basics
 - Studying 12-15 hours/week
-- Targeting AI Engineer, Applied AI Engineer, Agent Engineer, AI Platform Engineer, FDE, or Full Stack AI Engineer roles
+- Targeting AI Engineer, Applied AI Engineer, Agent Engineer, AI Platform Engineer, FDE, or Full
+  Stack AI Engineer roles
 
 ## How This Differs From Zero-to-Hero Roadmaps
 
-This roadmap does not spend months on beginner programming, DSA drills, calculus, deep learning from scratch, computer vision, reinforcement learning, or model pretraining.
+This roadmap does not spend months on beginner programming, DSA drills, calculus, deep learning from
+scratch, computer vision, reinforcement learning, or model pretraining.
 
 It assumes software engineering maturity and focuses on the AI systems layer:
 
@@ -52,19 +56,22 @@ Deprioritize these unless they directly support a project:
 
 ### Track 00: Orientation and Setup
 
-Set up an AI engineering workspace with API access, environment management, tracing, basic evals, and a build-log habit.
+Set up an AI engineering workspace with API access, environment management, tracing, basic evals,
+and a build-log habit.
 
 Deliverable: LLM API Healthcheck.
 
 ### Track 01: LLM Mechanics for Builders
 
-Learn practical model behavior: tokens, context windows, sampling, latency, output constraints, structured outputs, and model selection.
+Learn practical model behavior: tokens, context windows, sampling, latency, output constraints,
+structured outputs, and model selection.
 
 Deliverable: Tokenizer and Embedding Playground.
 
 ### Track 02: Context Engineering and Prompting
 
-Move from ad hoc prompting to context design: instructions, examples, decomposition, state, constraints, and regression tests.
+Move from ad hoc prompting to context design: instructions, examples, decomposition, state,
+constraints, and regression tests.
 
 Deliverable: Prompt-as-Code Module.
 
@@ -74,7 +81,8 @@ Connection: Track 02 turns model behavior from Track 01 into testable applicatio
 
 ### Track 03: Embeddings and Retrieval
 
-Learn embeddings, vector search, hybrid search, metadata filters, chunking, recall, and retrieval quality.
+Learn embeddings, vector search, hybrid search, metadata filters, chunking, recall, and retrieval
+quality.
 
 Deliverable: Tiny Retrieval Service.
 
@@ -82,7 +90,8 @@ Connection: Track 03 gives Track 04 the retrieval layer needed for grounded answ
 
 ### Track 04: RAG
 
-Build retrieval-augmented generation systems with grounding, citations, reranking, query rewriting, and answer verification.
+Build retrieval-augmented generation systems with grounding, citations, reranking, query rewriting,
+and answer verification.
 
 Deliverable: Cited Q&A Bot.
 
@@ -92,7 +101,8 @@ Connection: Track 04 creates the system that Track 05 will evaluate and observe.
 
 ### Track 05: Evaluation and Observability
 
-Create eval sets, automated graders, human review loops, trace instrumentation, cost analysis, and production dashboards.
+Create eval sets, automated graders, human review loops, trace instrumentation, cost analysis, and
+production dashboards.
 
 Deliverable: RAG Eval Harness.
 
@@ -100,15 +110,18 @@ Connection: Track 05 gives Track 06 the measurement discipline needed before add
 
 ### Track 06: Agents, Tool Use, and Loops
 
-Learn tool calling, planning loops, memory, task state, MCP, error recovery, approvals, and agent boundaries.
+Learn tool calling, planning loops, memory, task state, MCP, error recovery, approvals, and agent
+boundaries.
 
 Deliverable: Simple Agent Loop.
 
-Connection: Track 06 introduces controlled autonomy that Track 07 will place into a full system design.
+Connection: Track 06 introduces controlled autonomy that Track 07 will place into a full system
+design.
 
 ### Track 07: AI Systems Design
 
-Design AI systems with product constraints, data flows, failure modes, eval gates, security controls, and operational requirements.
+Design AI systems with product constraints, data flows, failure modes, eval gates, security
+controls, and operational requirements.
 
 Deliverable: AI System Design Document.
 
@@ -118,7 +131,8 @@ Connection: Track 07 turns project experience into interview-ready systems think
 
 ### Track 08: AI Infrastructure Light
 
-Learn deployment, queues, caching, rate limits, fallbacks, model routing, vector databases, secrets, and cost controls.
+Learn deployment, queues, caching, rate limits, fallbacks, model routing, vector databases, secrets,
+and cost controls.
 
 Deliverable: Simple LLM Router.
 
@@ -126,7 +140,8 @@ Connection: Track 08 makes earlier projects deployable and operable.
 
 ### Track 09: Security and Safety
 
-Study prompt injection, tool abuse, data leakage, unsafe outputs, privacy, authorization, audit logs, and red-team workflows.
+Study prompt injection, tool abuse, data leakage, unsafe outputs, privacy, authorization, audit
+logs, and red-team workflows.
 
 Deliverable: Prompt Injection Test Suite.
 
@@ -134,7 +149,8 @@ Connection: Track 09 hardens earlier systems before final portfolio work.
 
 ### Track 10: Final Capstones
 
-Build at least one production-grade portfolio project. One deep capstone is the minimum completion level. Three substantial capstones is the job-ready path.
+Build at least one production-grade portfolio project. One deep capstone is the minimum completion
+level. Three substantial capstones is the job-ready path.
 
 ## Capstone Standard
 
@@ -165,15 +181,15 @@ Build three substantial capstones:
 2. Autonomous PR Review Agent
 3. Agentic Business Workflow Copilot
 
-If you are time-constrained, build one deeply.
-If you want the strongest portfolio signal, build all three.
-For most job applications, two strong capstones are better than three unfinished ones.
+If you are time-constrained, build one deeply. If you want the strongest portfolio signal, build all
+three. For most job applications, two strong capstones are better than three unfinished ones.
 
 ### Optional Infrastructure Capstone
 
 4. LLM Gateway / Router
 
-This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles. It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
+This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles.
+It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
 
 ## Role-Based Paths
 

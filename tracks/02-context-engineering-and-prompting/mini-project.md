@@ -2,11 +2,13 @@
 
 ## Goal
 
-Create a versioned Prompt-as-Code Module with typed inputs, structured outputs, and regression tests.
+Create a versioned Prompt-as-Code Module with typed inputs, structured outputs, and regression
+tests.
 
 ## What It Teaches
 
-Context engineering, prompt specs, examples, output contracts, prompt versioning, and regression testing.
+Context engineering, prompt specs, examples, output contracts, prompt versioning, and regression
+testing.
 
 ## Suggested Stack
 

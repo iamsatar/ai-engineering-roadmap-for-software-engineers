@@ -2,11 +2,13 @@
 
 ## Goal
 
-Build the smallest useful AI engineering app: a local healthcheck that calls an LLM and logs operational metadata.
+Build the smallest useful AI engineering app: a local healthcheck that calls an LLM and logs
+operational metadata.
 
 ## What It Teaches
 
-Provider setup, environment variables, API error handling, request IDs, latency, token usage, and safe logging.
+Provider setup, environment variables, API error handling, request IDs, latency, token usage, and
+safe logging.
 
 ## Suggested Stack
 

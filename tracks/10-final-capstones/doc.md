@@ -6,7 +6,8 @@ This track turns your learning into portfolio-grade AI engineering projects.
 
 ## Why This Matters
 
-Hiring teams need evidence that you can build, evaluate, operate, and explain real AI systems. Capstones turn practice into proof.
+Hiring teams need evidence that you can build, evaluate, operate, and explain real AI systems.
+Capstones turn practice into proof.
 
 ## Learning Objectives
 
@@ -30,7 +31,8 @@ By the end of this track, the learner should be able to:
 
 ## Mental Model
 
-A capstone is not just code. It is a case study showing problem framing, system design, implementation, measurement, safety, and communication.
+A capstone is not just code. It is a case study showing problem framing, system design,
+implementation, measurement, safety, and communication.
 
 ## Recommended Resources
 
@@ -66,11 +68,13 @@ Skip: compliance-only framing.
 
 ## Hands-On Work
 
-Choose a recommended capstone, write the architecture doc, build a thin end-to-end slice, add AI orchestration, add evals, add observability, harden safety, and polish the demo.
+Choose a recommended capstone, write the architecture doc, build a thin end-to-end slice, add AI
+orchestration, add evals, add observability, harden safety, and polish the demo.
 
 ## Mini Project
 
-Final Capstone Portfolio: one production-grade AI system minimum, or three substantial systems for the strongest job-ready portfolio.
+Final Capstone Portfolio: one production-grade AI system minimum, or three substantial systems for
+the strongest job-ready portfolio.
 
 ## Deliverables
 
@@ -134,15 +138,15 @@ Build three substantial capstones:
 2. Autonomous PR Review Agent
 3. Agentic Business Workflow Copilot
 
-If you are time-constrained, build one deeply.
-If you want the strongest portfolio signal, build all three.
-For most job applications, two strong capstones are better than three unfinished ones.
+If you are time-constrained, build one deeply. If you want the strongest portfolio signal, build all
+three. For most job applications, two strong capstones are better than three unfinished ones.
 
 ### Optional Infrastructure Capstone
 
 4. LLM Gateway / Router
 
-This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles. It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
+This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles.
+It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
 
 ## Move On When
 

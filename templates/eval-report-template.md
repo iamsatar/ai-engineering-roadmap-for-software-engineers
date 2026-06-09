@@ -27,23 +27,23 @@ What are you trying to measure?
 
 ## Rubric
 
-| Score | Meaning |
-| --- | --- |
-| 1 | Incorrect or unsafe |
-| 2 | Partially useful but flawed |
-| 3 | Acceptable |
-| 4 | Strong |
-| 5 | Excellent |
+| Score | Meaning                     |
+| ----- | --------------------------- |
+| 1     | Incorrect or unsafe         |
+| 2     | Partially useful but flawed |
+| 3     | Acceptable                  |
+| 4     | Strong                      |
+| 5     | Excellent                   |
 
 ## Results
 
-| Metric | Result | Notes |
-| --- | --- | --- |
-| Task success | | |
-| Grounding | | |
-| Latency | | |
-| Cost | | |
-| Safety | | |
+| Metric       | Result | Notes |
+| ------------ | ------ | ----- |
+| Task success |        |       |
+| Grounding    |        |       |
+| Latency      |        |       |
+| Cost         |        |       |
+| Safety       |        |       |
 
 ## Failure Analysis
 

@@ -6,7 +6,8 @@ This track sets up your AI engineering workspace and operating habits.
 
 ## Why This Matters
 
-AI systems fail through vague outputs, hidden context bugs, nondeterminism, cost spikes, and silent quality regressions. Your setup should make these visible from day one.
+AI systems fail through vague outputs, hidden context bugs, nondeterminism, cost spikes, and silent
+quality regressions. Your setup should make these visible from day one.
 
 ## Learning Objectives
 
@@ -29,7 +30,8 @@ By the end of this track, the learner should be able to:
 
 ## Mental Model
 
-An AI app is a normal software system with a probabilistic model call inside it. Treat the model call like an external dependency that needs logging, error handling, and budgets.
+An AI app is a normal software system with a probabilistic model call inside it. Treat the model
+call like an external dependency that needs logging, error handling, and budgets.
 
 ## Recommended Resources
 
@@ -65,7 +67,8 @@ Skip: complex tool graphs.
 
 ## Hands-On Work
 
-Build a tiny CLI or web app that sends a prompt to an LLM and records prompt, response, model, token usage, latency, and errors.
+Build a tiny CLI or web app that sends a prompt to an LLM and records prompt, response, model, token
+usage, latency, and errors.
 
 ## Mini Project
 

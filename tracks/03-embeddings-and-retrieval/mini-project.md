@@ -6,7 +6,8 @@ Build a small retrieval service over a realistic document corpus.
 
 ## What It Teaches
 
-Embeddings, chunking, metadata, vector search, keyword comparison, retrieval evaluation, and precision@k.
+Embeddings, chunking, metadata, vector search, keyword comparison, retrieval evaluation, and
+precision@k.
 
 ## Suggested Stack
 
@@ -37,7 +38,8 @@ TypeScript, Node.js, pgvector or Qdrant, optional Python for experiments.
 
 ## README Expectations
 
-Include corpus description, chunking strategy, retrieval method, eval set, results, and failure cases.
+Include corpus description, chunking strategy, retrieval method, eval set, results, and failure
+cases.
 
 ## Estimated Time
 

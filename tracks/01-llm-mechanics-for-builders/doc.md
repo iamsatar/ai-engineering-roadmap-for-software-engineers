@@ -6,7 +6,8 @@ This track teaches the practical model behavior you need to design reliable LLM 
 
 ## Why This Matters
 
-You do not need to train models from scratch, but you do need to understand tokens, context, sampling, structured outputs, and model tradeoffs.
+You do not need to train models from scratch, but you do need to understand tokens, context,
+sampling, structured outputs, and model tradeoffs.
 
 ## Learning Objectives
 
@@ -30,7 +31,8 @@ By the end of this track, the learner should be able to:
 
 ## Mental Model
 
-An LLM predicts likely next tokens conditioned on context. Your job is to shape context, constrain outputs, verify results, and design fallbacks.
+An LLM predicts likely next tokens conditioned on context. Your job is to shape context, constrain
+outputs, verify results, and design fallbacks.
 
 ## Recommended Resources
 
@@ -66,11 +68,13 @@ Skip: training-heavy sections.
 
 ## Hands-On Work
 
-Compare token counts for prose, code, JSON, and tables. Vary temperature, model, schema constraints, and output length.
+Compare token counts for prose, code, JSON, and tables. Vary temperature, model, schema constraints,
+and output length.
 
 ## Mini Project
 
-Tokenizer and Embedding Playground: a tool for comparing prompts, models, settings, token usage, cost, and structured-output reliability.
+Tokenizer and Embedding Playground: a tool for comparing prompts, models, settings, token usage,
+cost, and structured-output reliability.
 
 ## Deliverables
 

@@ -6,7 +6,8 @@ This track teaches how to design complete AI systems, not isolated model calls.
 
 ## Why This Matters
 
-AI products need product thinking, data flow, model strategy, retrieval, tools, evals, observability, security, and rollout. Interviews test this systems judgment.
+AI products need product thinking, data flow, model strategy, retrieval, tools, evals,
+observability, security, and rollout. Interviews test this systems judgment.
 
 ## Learning Objectives
 
@@ -31,7 +32,8 @@ By the end of this track, the learner should be able to:
 
 ## Mental Model
 
-An AI feature is a product workflow plus an AI orchestration layer plus production controls. Design all three together.
+An AI feature is a product workflow plus an AI orchestration layer plus production controls. Design
+all three together.
 
 ## Recommended Resources
 
@@ -67,7 +69,8 @@ Skip: memorizing without applying.
 
 ## Hands-On Work
 
-Pick an AI product and write the architecture doc before coding. Include data flow, evals, observability, security, and rollout.
+Pick an AI product and write the architecture doc before coding. Include data flow, evals,
+observability, security, and rollout.
 
 ## Mini Project
 

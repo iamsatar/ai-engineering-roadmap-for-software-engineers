@@ -6,11 +6,13 @@ Package at least one production-grade capstone into a portfolio-ready case study
 
 ## What It Teaches
 
-Project scoping, architecture documentation, eval reporting, observability, security notes, demo writing, and interview storytelling.
+Project scoping, architecture documentation, eval reporting, observability, security notes, demo
+writing, and interview storytelling.
 
 ## Suggested Stack
 
-Use the stack appropriate for the chosen capstone. TypeScript, React, Node.js, a model provider SDK, a database, tracing, and deployment tooling are common choices.
+Use the stack appropriate for the chosen capstone. TypeScript, React, Node.js, a model provider SDK,
+a database, tracing, and deployment tooling are common choices.
 
 ## Requirements
 
@@ -39,7 +41,9 @@ Use the stack appropriate for the chosen capstone. TypeScript, React, Node.js, a
 
 ## README Expectations
 
-Include problem, demo, screenshots or video, architecture, data flow, how it works, setup, environment variables, evaluation, observability, cost and latency, security, known limitations, future improvements, and resume bullets.
+Include problem, demo, screenshots or video, architecture, data flow, how it works, setup,
+environment variables, evaluation, observability, cost and latency, security, known limitations,
+future improvements, and resume bullets.
 
 ## Estimated Time
 

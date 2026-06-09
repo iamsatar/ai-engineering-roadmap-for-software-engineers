@@ -2,7 +2,8 @@
 
 ## Problem
 
-Business teams often work across CRM, email, docs, tickets, and calendars. Build a copilot that gathers context, proposes actions, calls tools, and keeps humans in control.
+Business teams often work across CRM, email, docs, tickets, and calendars. Build a copilot that
+gathers context, proposes actions, calls tools, and keeps humans in control.
 
 ## Example Workflow
 
@@ -67,4 +68,5 @@ Cover:
 
 ## Portfolio Angle
 
-This capstone is especially strong for Forward Deployed Engineer and Applied AI Engineer roles because it connects AI capability to messy customer workflows.
+This capstone is especially strong for Forward Deployed Engineer and Applied AI Engineer roles
+because it connects AI capability to messy customer workflows.

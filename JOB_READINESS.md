@@ -1,6 +1,7 @@
 # Job Readiness
 
-The best portfolio does not say "I know AI." It shows that you can ship, evaluate, debug, and explain AI systems under real constraints.
+The best portfolio does not say "I know AI." It shows that you can ship, evaluate, debug, and
+explain AI systems under real constraints.
 
 ## Roles To Target
 
@@ -22,7 +23,9 @@ The best portfolio does not say "I know AI." It shows that you can ship, evaluat
 - Computer Vision Engineer
 - Reinforcement Learning Engineer
 
-These roles are not bad roles. They are just not aligned with this roadmap. This roadmap is about applied AI systems built by software engineers, not content operations, model research, computer vision, reinforcement learning, or training deep models from scratch.
+These roles are not bad roles. They are just not aligned with this roadmap. This roadmap is about
+applied AI systems built by software engineers, not content operations, model research, computer
+vision, reinforcement learning, or training deep models from scratch.
 
 # Job Readiness Checklist
 
@@ -158,21 +161,22 @@ Build three substantial capstones:
 2. Autonomous PR Review Agent
 3. Agentic Business Workflow Copilot
 
-If you are time-constrained, build one deeply.
-If you want the strongest portfolio signal, build all three.
-For most job applications, two strong capstones are better than three unfinished ones.
+If you are time-constrained, build one deeply. If you want the strongest portfolio signal, build all
+three. For most job applications, two strong capstones are better than three unfinished ones.
 
 ### Optional Infrastructure Capstone
 
 4. LLM Gateway / Router
 
-This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles. It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
+This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles.
+It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
 
 ## Role Signals
 
 ### AI Engineer / Applied AI Engineer
 
-Show that you can build product features with LLMs, retrieval, evals, observability, and deployment constraints.
+Show that you can build product features with LLMs, retrieval, evals, observability, and deployment
+constraints.
 
 ### Agent Engineer
 
@@ -180,11 +184,13 @@ Show bounded agents with tool schemas, state, stop conditions, verification, and
 
 ### AI Platform Engineer
 
-Show shared infrastructure: routing, tracing, evals, model gateway patterns, cost controls, and developer experience.
+Show shared infrastructure: routing, tracing, evals, model gateway patterns, cost controls, and
+developer experience.
 
 ### Forward Deployed Engineer
 
-Show that you can understand messy workflows, prototype quickly, integrate tools, explain tradeoffs, and harden what matters.
+Show that you can understand messy workflows, prototype quickly, integrate tools, explain tradeoffs,
+and harden what matters.
 
 ## Resume Bullet Formula
 
@@ -194,9 +200,12 @@ Use:
 
 Examples:
 
-- Built a RAG assistant for engineering runbooks using hybrid retrieval, reranking, citations, and abstention logic, evaluated with a 120-question golden set.
-- Built a PR review agent with repository-aware tool calls, risk classification, human approval gates, and trace-based debugging.
-- Designed an AI workflow copilot with audit logs, role-based tool permissions, eval gates, and production cost controls.
+- Built a RAG assistant for engineering runbooks using hybrid retrieval, reranking, citations, and
+  abstention logic, evaluated with a 120-question golden set.
+- Built a PR review agent with repository-aware tool calls, risk classification, human approval
+  gates, and trace-based debugging.
+- Designed an AI workflow copilot with audit logs, role-based tool permissions, eval gates, and
+  production cost controls.
 
 ## Mock System Design Prompts
 
@@ -206,4 +215,5 @@ Examples:
 - Design a code review assistant for a large engineering organization.
 - Design an internal AI platform for 200 engineers.
 
-For each prompt, explain users, data sources, model choices, retrieval, tools, evals, observability, security, and rollout.
+For each prompt, explain users, data sources, model choices, retrieval, tools, evals, observability,
+security, and rollout.

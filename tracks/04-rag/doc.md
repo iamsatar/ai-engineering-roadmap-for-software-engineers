@@ -2,11 +2,13 @@
 
 ## Summary
 
-This track teaches how to build retrieval-augmented generation systems that answer with grounded context, citations, and graceful refusal behavior.
+This track teaches how to build retrieval-augmented generation systems that answer with grounded
+context, citations, and graceful refusal behavior.
 
 ## Why This Matters
 
-RAG is one of the most common applied AI patterns. It is also one of the easiest to demo poorly and one of the hardest to make reliable.
+RAG is one of the most common applied AI patterns. It is also one of the easiest to demo poorly and
+one of the hardest to make reliable.
 
 ## Learning Objectives
 
@@ -97,7 +99,8 @@ Skip: treating automatic scores as final truth.
 
 ## Hands-On Work
 
-Connect retrieval to generation, force citations, show retrieved chunks, add abstention, and test answerable and unanswerable questions.
+Connect retrieval to generation, force citations, show retrieved chunks, add abstention, and test
+answerable and unanswerable questions.
 
 ## Mini Project
 

@@ -1,6 +1,7 @@
 # Contributing
 
-Contributions are welcome if they make the roadmap more useful, more accurate, or more practical for experienced software engineers.
+Contributions are welcome if they make the roadmap more useful, more accurate, or more practical for
+experienced software engineers.
 
 ## Contribution Principles
 
@@ -53,14 +54,16 @@ Every project should produce:
 
 Before sharing or publishing updates:
 
-- Check that all Markdown tables render correctly.
+- Run `npm run format:md`.
+- Run `npm run check:md`.
+- Open the README on GitHub and confirm tables render correctly.
 - Click through all internal links.
-- Run a Markdown linter if available.
 - Review all resource links once per quarter.
 - Keep examples small and practical.
 - Avoid adding resources unless they directly support a track or project.
 
-TODO: Add a GitHub Actions workflow for Markdown linting and link checking when the repo is ready for automated maintenance.
+TODO: Add a GitHub Actions workflow for Markdown linting and link checking when the repo is ready
+for automated maintenance.
 
 ## Style
 

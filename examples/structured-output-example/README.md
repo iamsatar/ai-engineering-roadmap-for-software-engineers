@@ -2,7 +2,8 @@
 
 ## What This Demonstrates
 
-How to ask a model for output that conforms to a schema, validate it, and handle invalid or refused outputs.
+How to ask a model for output that conforms to a schema, validate it, and handle invalid or refused
+outputs.
 
 ## Why It Matters
 

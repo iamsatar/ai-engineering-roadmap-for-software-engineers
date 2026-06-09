@@ -6,7 +6,8 @@ This track teaches semantic search and retrieval quality before you build full R
 
 ## Why This Matters
 
-Retrieval is often the quality bottleneck in AI systems. If the right context is not retrieved, the model usually cannot recover.
+Retrieval is often the quality bottleneck in AI systems. If the right context is not retrieved, the
+model usually cannot recover.
 
 ## Learning Objectives
 
@@ -30,7 +31,8 @@ By the end of this track, the learner should be able to:
 
 ## Mental Model
 
-Embeddings map text into a space where related meaning should be close. Retrieval quality depends on corpus structure, chunking, metadata, query wording, and ranking.
+Embeddings map text into a space where related meaning should be close. Retrieval quality depends on
+corpus structure, chunking, metadata, query wording, and ranking.
 
 ## Recommended Resources
 
@@ -66,11 +68,13 @@ Skip: deep tuning before measuring quality.
 
 ## Hands-On Work
 
-Ingest a realistic corpus, chunk it, embed it, search it, and measure whether expected documents appear in top results.
+Ingest a realistic corpus, chunk it, embed it, search it, and measure whether expected documents
+appear in top results.
 
 ## Mini Project
 
-Tiny Retrieval Service: an API or CLI that returns ranked snippets with metadata and retrieval eval results.
+Tiny Retrieval Service: an API or CLI that returns ranked snippets with metadata and retrieval eval
+results.
 
 ## Deliverables
 

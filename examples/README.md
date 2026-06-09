@@ -1,6 +1,7 @@
 # Examples
 
-These examples are starter specs, not finished projects. Use them to create small practice implementations before building larger mini-projects or capstones.
+These examples are starter specs, not finished projects. Use them to create small practice
+implementations before building larger mini-projects or capstones.
 
 Each example should eventually include:
 

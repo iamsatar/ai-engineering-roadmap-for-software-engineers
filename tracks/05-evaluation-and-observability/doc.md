@@ -6,7 +6,8 @@ This track teaches how to measure and debug AI system quality before and after d
 
 ## Why This Matters
 
-AI systems can look good in demos and fail in production. Evals and traces turn vague quality concerns into inspectable evidence.
+AI systems can look good in demos and fail in production. Evals and traces turn vague quality
+concerns into inspectable evidence.
 
 ## Learning Objectives
 
@@ -30,7 +31,8 @@ By the end of this track, the learner should be able to:
 
 ## Mental Model
 
-Evaluation asks whether the system is good enough. Observability asks why it behaved the way it did. You need both.
+Evaluation asks whether the system is good enough. Observability asks why it behaved the way it did.
+You need both.
 
 ## Recommended Resources
 

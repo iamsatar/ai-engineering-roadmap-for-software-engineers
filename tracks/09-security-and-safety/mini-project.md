@@ -6,7 +6,8 @@ Create a prompt injection and AI security test suite for one AI project.
 
 ## What It Teaches
 
-Direct prompt injection, indirect prompt injection, data leakage, tool misuse, permission boundaries, audit logs, and residual risk.
+Direct prompt injection, indirect prompt injection, data leakage, tool misuse, permission
+boundaries, audit logs, and residual risk.
 
 ## Suggested Stack
 

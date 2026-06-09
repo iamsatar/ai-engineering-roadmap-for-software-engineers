@@ -6,7 +6,8 @@ This track teaches how to identify and mitigate AI-specific security and safety 
 
 ## Why This Matters
 
-AI systems combine untrusted users, untrusted documents, model reasoning, and sometimes privileged tools. That creates new attack paths.
+AI systems combine untrusted users, untrusted documents, model reasoning, and sometimes privileged
+tools. That creates new attack paths.
 
 ## Learning Objectives
 
@@ -33,7 +34,8 @@ By the end of this track, the learner should be able to:
 
 ## Mental Model
 
-Treat user input, retrieved documents, and tool output as untrusted data. The model can read them, but they should not automatically become trusted instructions.
+Treat user input, retrieved documents, and tool output as untrusted data. The model can read them,
+but they should not automatically become trusted instructions.
 
 ## Recommended Resources
 
@@ -49,7 +51,8 @@ Skip: checklist-only thinking.
 
 ### OWASP Prompt Injection Prevention Cheat Sheet
 
-Link: https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html
+Link:
+https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html
 
 Why it matters: Concrete injection patterns and mitigations.
 
@@ -69,11 +72,13 @@ Skip: exposing powerful tools without approval.
 
 ## Hands-On Work
 
-Red-team one project, try prompt injection, try unauthorized tool actions, inspect logs, add mitigations, and retest.
+Red-team one project, try prompt injection, try unauthorized tool actions, inspect logs, add
+mitigations, and retest.
 
 ## Mini Project
 
-Prompt Injection Test Suite: a threat model, attack case set, mitigation plan, and retest notes for one AI project.
+Prompt Injection Test Suite: a threat model, attack case set, mitigation plan, and retest notes for
+one AI project.
 
 ## Deliverables
 

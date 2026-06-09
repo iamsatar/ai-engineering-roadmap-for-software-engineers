@@ -6,7 +6,8 @@ Add an eval runner and observability layer to a RAG project.
 
 ## What It Teaches
 
-Golden datasets, regression tests, faithfulness checks, LLM-as-judge limits, traces, cost, latency, and release gates.
+Golden datasets, regression tests, faithfulness checks, LLM-as-judge limits, traces, cost, latency,
+and release gates.
 
 ## Suggested Stack
 

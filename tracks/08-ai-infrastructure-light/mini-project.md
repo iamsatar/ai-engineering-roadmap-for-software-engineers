@@ -6,7 +6,8 @@ Build a small LLM router or gateway with operational controls.
 
 ## What It Teaches
 
-Provider abstraction, routing, timeouts, retries, fallbacks, rate limits, caching, cost tracking, and runbooks.
+Provider abstraction, routing, timeouts, retries, fallbacks, rate limits, caching, cost tracking,
+and runbooks.
 
 ## Suggested Stack
 
@@ -38,7 +39,8 @@ TypeScript, Node.js, LiteLLM optional, Redis optional, hosted deployment platfor
 
 ## README Expectations
 
-Include setup, routing policy, environment variables, failure handling, cost/latency notes, and runbook.
+Include setup, routing policy, environment variables, failure handling, cost/latency notes, and
+runbook.
 
 ## Estimated Time
 

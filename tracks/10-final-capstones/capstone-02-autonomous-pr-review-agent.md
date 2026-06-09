@@ -2,7 +2,9 @@
 
 ## Problem
 
-Code reviews are time-consuming, inconsistent, and context-heavy. Build an agent that reviews pull requests, inspects repository context, identifies risks, and drafts review comments for human approval.
+Code reviews are time-consuming, inconsistent, and context-heavy. Build an agent that reviews pull
+requests, inspects repository context, identifies risks, and drafts review comments for human
+approval.
 
 ## Core Features
 
@@ -55,4 +57,5 @@ Cover:
 
 ## Portfolio Angle
 
-This capstone shows agent design, code-aware tool use, evals for subjective outputs, and production controls.
+This capstone shows agent design, code-aware tool use, evals for subjective outputs, and production
+controls.

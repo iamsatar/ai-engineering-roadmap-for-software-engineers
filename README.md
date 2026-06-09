@@ -1,8 +1,10 @@
 # AI Engineering Roadmap for Software Engineers
 
-> A build-first roadmap for experienced software engineers learning RAG, agents, evals, context engineering, AI systems design, infrastructure, and safety.
+> A build-first roadmap for experienced software engineers learning RAG, agents, evals, context
+> engineering, AI systems design, infrastructure, and safety.
 
-This is not a link dump. It is a project-based curriculum for engineers who already ship software and now want to build, evaluate, operate, and explain production AI systems.
+This is not a link dump. It is a project-based curriculum for engineers who already ship software
+and now want to build, evaluate, operate, and explain production AI systems.
 
 ## Start Here
 
@@ -23,7 +25,8 @@ Default learner profile:
 - Experienced software engineer
 - Comfortable with Git, APIs, CI/CD, frontend/backend basics
 - Studying 12-15 hours/week
-- Targeting AI Engineer, Applied AI Engineer, Agent Engineer, AI Platform Engineer, FDE, or Full Stack AI Engineer roles
+- Targeting AI Engineer, Applied AI Engineer, Agent Engineer, AI Platform Engineer, FDE, or Full
+  Stack AI Engineer roles
 
 ## Who This Is Not For
 
@@ -38,7 +41,8 @@ This roadmap is not designed for:
 
 ## What an AI Engineer Actually Does
 
-An AI Engineer does not just write prompts. They design and ship software systems where model behavior is one component of a larger product.
+An AI Engineer does not just write prompts. They design and ship software systems where model
+behavior is one component of a larger product.
 
 Typical work includes:
 
@@ -52,19 +56,19 @@ Typical work includes:
 
 ## Curriculum Overview
 
-| Track | Module | Output |
-|---|---|---|
-| 00 | [Orientation & Setup](./tracks/00-orientation-and-setup/doc.md) | LLM API Healthcheck |
-| 01 | [LLM Mechanics for Builders](./tracks/01-llm-mechanics-for-builders/doc.md) | Tokenizer and Embedding Playground |
-| 02 | [Context Engineering & Prompting](./tracks/02-context-engineering-and-prompting/doc.md) | Prompt-as-Code Module |
-| 03 | [Embeddings & Retrieval](./tracks/03-embeddings-and-retrieval/doc.md) | Tiny Retrieval Service |
-| 04 | [RAG](./tracks/04-rag/doc.md) | Cited Q&A Bot |
-| 05 | [Evaluation & Observability](./tracks/05-evaluation-and-observability/doc.md) | RAG Eval Harness |
-| 06 | [Agents & Tool Use](./tracks/06-agents-tool-use-and-loops/doc.md) | Simple Agent Loop |
-| 07 | [AI Systems Design](./tracks/07-ai-systems-design/doc.md) | AI System Design Document |
-| 08 | [AI Infrastructure Light](./tracks/08-ai-infrastructure-light/doc.md) | Simple LLM Router |
-| 09 | [Security & Safety](./tracks/09-security-and-safety/doc.md) | Prompt Injection Test Suite |
-| 10 | [Final Capstones](./tracks/10-final-capstones/doc.md) | Final Capstone Portfolio |
+| Track | Module                                                                                  | Output                             |
+| ----- | --------------------------------------------------------------------------------------- | ---------------------------------- |
+| 00    | [Orientation & Setup](./tracks/00-orientation-and-setup/doc.md)                         | LLM API Healthcheck                |
+| 01    | [LLM Mechanics for Builders](./tracks/01-llm-mechanics-for-builders/doc.md)             | Tokenizer and Embedding Playground |
+| 02    | [Context Engineering & Prompting](./tracks/02-context-engineering-and-prompting/doc.md) | Prompt-as-Code Module              |
+| 03    | [Embeddings & Retrieval](./tracks/03-embeddings-and-retrieval/doc.md)                   | Tiny Retrieval Service             |
+| 04    | [RAG](./tracks/04-rag/doc.md)                                                           | Cited Q&A Bot                      |
+| 05    | [Evaluation & Observability](./tracks/05-evaluation-and-observability/doc.md)           | RAG Eval Harness                   |
+| 06    | [Agents & Tool Use](./tracks/06-agents-tool-use-and-loops/doc.md)                       | Simple Agent Loop                  |
+| 07    | [AI Systems Design](./tracks/07-ai-systems-design/doc.md)                               | AI System Design Document          |
+| 08    | [AI Infrastructure Light](./tracks/08-ai-infrastructure-light/doc.md)                   | Simple LLM Router                  |
+| 09    | [Security & Safety](./tracks/09-security-and-safety/doc.md)                             | Prompt Injection Test Suite        |
+| 10    | [Final Capstones](./tracks/10-final-capstones/doc.md)                                   | Final Capstone Portfolio           |
 
 ## Progress Tracker
 
@@ -187,15 +191,15 @@ Build three substantial capstones:
 2. Autonomous PR Review Agent
 3. Agentic Business Workflow Copilot
 
-If you are time-constrained, build one deeply.
-If you want the strongest portfolio signal, build all three.
-For most job applications, two strong capstones are better than three unfinished ones.
+If you are time-constrained, build one deeply. If you want the strongest portfolio signal, build all
+three. For most job applications, two strong capstones are better than three unfinished ones.
 
 ### Optional Infrastructure Capstone
 
 4. LLM Gateway / Router
 
-This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles. It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
+This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles.
+It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
 
 ## How To Use This Repo
 
@@ -236,13 +240,15 @@ Recommended monthly budget for serious practice:
 - Comfortable budget: $20-$50/month
 - Higher experimentation budget: $50-$100/month
 
-Avoid running large, unbounded agent loops until you understand cost tracking, retries, and stop conditions.
+Avoid running large, unbounded agent loops until you understand cost tracking, retries, and stop
+conditions.
 
 ## GitHub Metadata Suggestions
 
 Recommended repo description:
 
-> Project-based AI engineering roadmap for experienced software engineers learning LLM apps, RAG, agents, evals, system design, and AI infrastructure.
+> Project-based AI engineering roadmap for experienced software engineers learning LLM apps, RAG,
+> agents, evals, system design, and AI infrastructure.
 
 Recommended topics:
 

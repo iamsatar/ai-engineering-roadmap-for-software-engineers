@@ -6,7 +6,8 @@ How to create test cases for direct and indirect prompt injection in an AI syste
 
 ## Why It Matters
 
-RAG and agent systems often include untrusted content. The model can read that content, but it should not treat it as trusted instruction.
+RAG and agent systems often include untrusted content. The model can read that content, but it
+should not treat it as trusted instruction.
 
 ## Files To Create Later
 

@@ -6,7 +6,8 @@ Write a production-style architecture document for a realistic AI system.
 
 ## What It Teaches
 
-Problem framing, workflow design, data flow, model strategy, retrieval/tool design, eval planning, observability, security, rollout, and rollback.
+Problem framing, workflow design, data flow, model strategy, retrieval/tool design, eval planning,
+observability, security, rollout, and rollback.
 
 ## Suggested Stack
 

@@ -6,7 +6,8 @@ Build a bounded tool-calling agent that completes one narrow workflow safely.
 
 ## What It Teaches
 
-Tool schemas, state, loop control, verification, max iterations, cost limits, approval gates, and failure recovery.
+Tool schemas, state, loop control, verification, max iterations, cost limits, approval gates, and
+failure recovery.
 
 ## Suggested Stack
 

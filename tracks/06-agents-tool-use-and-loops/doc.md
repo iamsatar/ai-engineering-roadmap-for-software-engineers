@@ -2,11 +2,13 @@
 
 ## Summary
 
-This track teaches how to build bounded agents that use tools, maintain state, verify progress, and stop safely.
+This track teaches how to build bounded agents that use tools, maintain state, verify progress, and
+stop safely.
 
 ## Why This Matters
 
-Agent demos are easy. Reliable agents require boundaries, tool schemas, verification, permissions, traces, and human approval.
+Agent demos are easy. Reliable agents require boundaries, tool schemas, verification, permissions,
+traces, and human approval.
 
 ## Learning Objectives
 
@@ -45,8 +47,8 @@ A useful agent is a controlled loop:
 6. Verify progress
 7. Decide whether to continue, retry, escalate, or stop
 
-The hard part is not making the model call tools.
-The hard part is designing boundaries, verification, memory, and stop conditions.
+The hard part is not making the model call tools. The hard part is designing boundaries,
+verification, memory, and stop conditions.
 
 ## Recommended Resources
 
@@ -92,7 +94,8 @@ Skip: complex graphs for simple tasks.
 
 ## Hands-On Work
 
-Define tools, build a bounded loop, persist task state, add retries, validate outputs, and require approval before side effects.
+Define tools, build a bounded loop, persist task state, add retries, validate outputs, and require
+approval before side effects.
 
 ## Agent Loop Cost Warning
 

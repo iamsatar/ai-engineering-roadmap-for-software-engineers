@@ -2,11 +2,13 @@
 
 ## Goal
 
-Build a small playground that compares token counts, embeddings, model settings, and structured-output behavior.
+Build a small playground that compares token counts, embeddings, model settings, and
+structured-output behavior.
 
 ## What It Teaches
 
-Tokenization, context budgeting, embedding intuition, temperature, output length, schema adherence, cost, and latency.
+Tokenization, context budgeting, embedding intuition, temperature, output length, schema adherence,
+cost, and latency.
 
 ## Suggested Stack
 

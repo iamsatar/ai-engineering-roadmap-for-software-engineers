@@ -2,11 +2,13 @@
 
 ## What This Demonstrates
 
-How to build a bounded agent loop that selects a tool, observes the result, verifies progress, and stops.
+How to build a bounded agent loop that selects a tool, observes the result, verifies progress, and
+stops.
 
 ## Why It Matters
 
-The hard part of agents is not calling tools. The hard part is boundaries, state, verification, and stopping safely.
+The hard part of agents is not calling tools. The hard part is boundaries, state, verification, and
+stopping safely.
 
 ## Files To Create Later
 

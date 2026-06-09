@@ -1,8 +1,6 @@
 # Build Log Entry
 
-Date:
-Track or project:
-Time spent:
+Date: Track or project: Time spent:
 
 ## What I Built
 

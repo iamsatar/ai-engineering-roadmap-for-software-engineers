@@ -2,7 +2,8 @@
 
 ## Problem
 
-Engineering teams lose time searching docs, runbooks, incident notes, and code-adjacent knowledge. Build an assistant that answers engineering questions with grounded citations and clear uncertainty.
+Engineering teams lose time searching docs, runbooks, incident notes, and code-adjacent knowledge.
+Build an assistant that answers engineering questions with grounded citations and clear uncertainty.
 
 ## Core Features
 
@@ -54,4 +55,5 @@ Cover:
 
 ## Portfolio Angle
 
-This capstone shows RAG, retrieval evaluation, AI product design, observability, and enterprise workflow thinking.
+This capstone shows RAG, retrieval evaluation, AI product design, observability, and enterprise
+workflow thinking.

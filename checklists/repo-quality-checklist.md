@@ -1,6 +1,7 @@
 # Repo Quality Checklist
 
 - [ ] README renders cleanly.
+- [ ] All Markdown files have proper headings, lists, and spacing.
 - [ ] All tables render correctly.
 - [ ] All track links work.
 - [ ] Every track has `doc.md`.

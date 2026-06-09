@@ -10,7 +10,8 @@ Describe the agent loop, tools, state, verification, and stop conditions.
 
 ## What Failed or Was Compared
 
-Describe whether the agent looped, chose the wrong tool, used bad arguments, failed verification, or needed escalation.
+Describe whether the agent looped, chose the wrong tool, used bad arguments, failed verification, or
+needed escalation.
 
 ## Evidence
 
@@ -18,7 +19,8 @@ Include trace steps, tool inputs, tool outputs, model decisions, and final resul
 
 ## Tradeoffs
 
-Discuss autonomy, tool permissions, max iterations, maker/checker separation, retries, and human approval.
+Discuss autonomy, tool permissions, max iterations, maker/checker separation, retries, and human
+approval.
 
 ## Decision
 

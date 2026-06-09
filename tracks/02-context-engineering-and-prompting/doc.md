@@ -6,7 +6,8 @@ This track moves you from clever one-off prompts to testable, versioned context 
 
 ## Why This Matters
 
-Production AI behavior depends on instructions, examples, retrieved context, state, and output contracts. Prompting is only one part of context engineering.
+Production AI behavior depends on instructions, examples, retrieved context, state, and output
+contracts. Prompting is only one part of context engineering.
 
 ## Learning Objectives
 
@@ -30,7 +31,8 @@ By the end of this track, the learner should be able to:
 
 ## Mental Model
 
-Context is the application state the model can see. Good context engineering decides what enters that state, in what order, under what constraints, and how changes are tested.
+Context is the application state the model can see. Good context engineering decides what enters
+that state, in what order, under what constraints, and how changes are tested.
 
 ## Recommended Resources
 
@@ -66,11 +68,13 @@ Skip: advanced schemas until basics work.
 
 ## Hands-On Work
 
-Rewrite a vague prompt into a prompt spec, add examples, build a regression set, and compare prompt versions.
+Rewrite a vague prompt into a prompt spec, add examples, build a regression set, and compare prompt
+versions.
 
 ## Mini Project
 
-Prompt-as-Code Module: a command-line or web harness that runs prompt versions against fixed cases and reports failures.
+Prompt-as-Code Module: a command-line or web harness that runs prompt versions against fixed cases
+and reports failures.
 
 ## Deliverables
 

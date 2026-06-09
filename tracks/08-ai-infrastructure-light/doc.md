@@ -6,7 +6,8 @@ This track teaches the infrastructure basics needed to deploy and operate AI app
 
 ## Why This Matters
 
-AI infrastructure is normal production infrastructure plus model-specific concerns: variable latency, rate limits, token cost, provider outages, and data governance.
+AI infrastructure is normal production infrastructure plus model-specific concerns: variable
+latency, rate limits, token cost, provider outages, and data governance.
 
 ## Learning Objectives
 
@@ -32,7 +33,8 @@ By the end of this track, the learner should be able to:
 
 ## Mental Model
 
-Model calls are slow, costly external dependencies. Infrastructure should protect users, budgets, and downstream systems when model behavior or provider availability changes.
+Model calls are slow, costly external dependencies. Infrastructure should protect users, budgets,
+and downstream systems when model behavior or provider availability changes.
 
 ## Recommended Resources
 
@@ -68,7 +70,8 @@ Skip: assuming local model quality is always enough.
 
 ## Hands-On Work
 
-Deploy a previous AI project with timeouts, retry limits, cost tracking, latency notes, and a runbook.
+Deploy a previous AI project with timeouts, retry limits, cost tracking, latency notes, and a
+runbook.
 
 ## Mini Project
 

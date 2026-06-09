@@ -2,11 +2,13 @@
 
 ## What This Demonstrates
 
-How to evaluate whether retrieval returns the right documents before using those documents in generation.
+How to evaluate whether retrieval returns the right documents before using those documents in
+generation.
 
 ## Why It Matters
 
-RAG quality often fails at retrieval. If the right chunks are missing, the answer will likely be wrong or unsupported.
+RAG quality often fails at retrieval. If the right chunks are missing, the answer will likely be
+wrong or unsupported.
 
 ## Files To Create Later
 

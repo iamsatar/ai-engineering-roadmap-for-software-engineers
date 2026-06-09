@@ -8,7 +8,8 @@ This is not a link dump. Use these resources while building the track projects.
 
 URL: https://platform.openai.com/docs
 
-Why it matters: You need to understand the API surface for model calls, streaming, structured outputs, and tool calling.
+Why it matters: You need to understand the API surface for model calls, streaming, structured
+outputs, and tool calling.
 
 Focus on:
 
@@ -48,7 +49,8 @@ Skip:
 
 URL: https://huggingface.co/learn/llm-course
 
-Why it matters: It gives a practical overview of LLM concepts without requiring model research depth.
+Why it matters: It gives a practical overview of LLM concepts without requiring model research
+depth.
 
 Focus on:
 
@@ -99,7 +101,8 @@ Skip:
 
 URL: https://platform.openai.com/docs/guides/prompt-engineering
 
-Why it matters: It covers practical techniques for instruction design, decomposition, and reliability.
+Why it matters: It covers practical techniques for instruction design, decomposition, and
+reliability.
 
 Focus on:
 
@@ -200,7 +203,8 @@ Skip:
 
 URL: https://github.com/pgvector/pgvector
 
-Why it matters: Many production teams prefer adding vector search to Postgres before adopting a dedicated vector database.
+Why it matters: Many production teams prefer adding vector search to Postgres before adopting a
+dedicated vector database.
 
 Focus on:
 
@@ -219,7 +223,8 @@ Skip:
 
 URL: https://docs.llamaindex.ai
 
-Why it matters: LlamaIndex focuses heavily on data ingestion, indexing, retrieval, and RAG workflows.
+Why it matters: LlamaIndex focuses heavily on data ingestion, indexing, retrieval, and RAG
+workflows.
 
 Focus on:
 
@@ -303,7 +308,8 @@ Skip:
 
 URL: https://langfuse.com/docs
 
-Why it matters: AI apps need traces for model calls, retrieval steps, tool calls, costs, and latency.
+Why it matters: AI apps need traces for model calls, retrieval steps, tool calls, costs, and
+latency.
 
 Focus on:
 
@@ -426,7 +432,8 @@ Skip:
 
 URL: https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/
 
-Why it matters: AI systems still rely on data systems, distributed systems, and operational tradeoffs.
+Why it matters: AI systems still rely on data systems, distributed systems, and operational
+tradeoffs.
 
 Focus on:
 

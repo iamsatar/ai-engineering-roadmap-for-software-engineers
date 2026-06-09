@@ -4,13 +4,15 @@ Use these only if the three recommended capstones do not fit your goals.
 
 ## AI Incident Response Copilot
 
-Helps engineers interpret alerts, retrieve runbooks, summarize recent changes, and draft incident updates.
+Helps engineers interpret alerts, retrieve runbooks, summarize recent changes, and draft incident
+updates.
 
 Strong signals: RAG, tool use, human-in-the-loop, reliability.
 
 ## Customer Support Resolution Assistant
 
-Retrieves product docs and prior tickets, drafts responses, classifies urgency, and routes complex cases.
+Retrieves product docs and prior tickets, drafts responses, classifies urgency, and routes complex
+cases.
 
 Strong signals: applied AI, workflow automation, evals, safety.
 
@@ -28,7 +30,8 @@ Strong signals: AI Platform Engineer, infrastructure, governance.
 
 ## Requirements-to-Prototype Agent
 
-Turns product requirements into user stories, architecture notes, code scaffolds, and review checklists.
+Turns product requirements into user stories, architecture notes, code scaffolds, and review
+checklists.
 
 Strong signals: agent engineering, SDLC automation, human approval design.
 

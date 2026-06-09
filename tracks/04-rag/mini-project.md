@@ -2,11 +2,13 @@
 
 ## Goal
 
-Build a RAG assistant that answers questions from retrieved context with citations and refusal behavior.
+Build a RAG assistant that answers questions from retrieved context with citations and refusal
+behavior.
 
 ## What It Teaches
 
-RAG pipelines, query rewriting, retrieval, reranking, context packing, grounded generation, citations, abstention, and answer verification.
+RAG pipelines, query rewriting, retrieval, reranking, context packing, grounded generation,
+citations, abstention, and answer verification.
 
 ## Suggested Stack
 
@@ -39,7 +41,8 @@ TypeScript, Node.js, React or CLI, vector database, provider SDK, optional reran
 
 ## README Expectations
 
-Include architecture, sample questions, citation format, eval results, cost/latency notes, and known limitations.
+Include architecture, sample questions, citation format, eval results, cost/latency notes, and known
+limitations.
 
 ## Estimated Time
 
