@@ -101,7 +101,7 @@ Connect retrieval to generation, force citations, show retrieved chunks, add abs
 
 ## Mini Project
 
-Grounded RAG Assistant: a cited assistant over your corpus with retrieval logs and a 40-question eval set.
+Cited Q&A Bot: a cited assistant over your corpus with retrieval logs and a 40-question eval set.
 
 ## Deliverables
 

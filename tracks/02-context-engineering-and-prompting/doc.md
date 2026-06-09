@@ -70,7 +70,7 @@ Rewrite a vague prompt into a prompt spec, add examples, build a regression set,
 
 ## Mini Project
 
-Prompt Regression Harness: a command-line or web harness that runs prompt versions against fixed cases and reports failures.
+Prompt-as-Code Module: a command-line or web harness that runs prompt versions against fixed cases and reports failures.
 
 ## Deliverables
 

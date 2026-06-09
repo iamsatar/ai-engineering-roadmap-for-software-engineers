@@ -71,7 +71,7 @@ Pick an AI product and write the architecture doc before coding. Include data fl
 
 ## Mini Project
 
-AI Product Architecture Doc: a production-style architecture document for one realistic AI system.
+AI System Design Document: a production-style architecture document for one realistic AI system.
 
 ## Deliverables
 

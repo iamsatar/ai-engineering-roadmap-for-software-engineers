@@ -49,6 +49,19 @@ Every project should produce:
 - Templates remain easy to reuse.
 - Language is clear and concise.
 
+## Recommended Maintenance Checks
+
+Before sharing or publishing updates:
+
+- Check that all Markdown tables render correctly.
+- Click through all internal links.
+- Run a Markdown linter if available.
+- Review all resource links once per quarter.
+- Keep examples small and practical.
+- Avoid adding resources unless they directly support a track or project.
+
+TODO: Add a GitHub Actions workflow for Markdown linting and link checking when the repo is ready for automated maintenance.
+
 ## Style
 
 - Write for senior software engineers.

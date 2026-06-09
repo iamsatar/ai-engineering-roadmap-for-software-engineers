@@ -70,7 +70,7 @@ Compare token counts for prose, code, JSON, and tables. Vary temperature, model,
 
 ## Mini Project
 
-LLM Behavior Playground: a tool for comparing prompts, models, settings, token usage, cost, and structured-output reliability.
+Tokenizer and Embedding Playground: a tool for comparing prompts, models, settings, token usage, cost, and structured-output reliability.
 
 ## Deliverables
 

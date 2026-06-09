@@ -73,7 +73,7 @@ Red-team one project, try prompt injection, try unauthorized tool actions, inspe
 
 ## Mini Project
 
-AI Security Red-Team Report: a threat model, attack case set, mitigation plan, and retest notes for one AI project.
+Prompt Injection Test Suite: a threat model, attack case set, mitigation plan, and retest notes for one AI project.
 
 ## Deliverables
 

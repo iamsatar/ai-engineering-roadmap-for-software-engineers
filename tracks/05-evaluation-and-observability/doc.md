@@ -80,7 +80,7 @@ Add an eval runner, result history, trace logs, and an eval report to a previous
 
 ## Mini Project
 
-Eval and Observability Suite: an eval harness plus trace/cost/latency reporting for a RAG or agent project.
+RAG Eval Harness: an eval harness plus trace/cost/latency reporting for a RAG or agent project.
 
 ## Deliverables
 

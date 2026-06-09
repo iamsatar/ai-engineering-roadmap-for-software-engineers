@@ -75,7 +75,9 @@ Every capstone README should include:
 - Future improvements
 - Resume bullets
 
-## Mini-Project: AI Engineering Workspace
+## Mini Project — LLM API Healthcheck
+
+Also known as: AI Engineering Workspace
 
 ### Goal
 
@@ -116,7 +118,9 @@ Explain setup, environment variables, run commands, and example output.
 
 1-2 days.
 
-## Mini-Project: LLM Behavior Playground
+## Mini Project — Tokenizer and Embedding Playground
+
+Also known as: LLM Behavior Playground
 
 ### Goal
 
@@ -156,7 +160,9 @@ Include experiment table, screenshots or CLI output, and key lessons.
 
 2-3 days.
 
-## Mini-Project: Prompt Regression Harness
+## Mini Project — Prompt-as-Code Module
+
+Also known as: Prompt Regression Harness
 
 ### Goal
 
@@ -197,7 +203,9 @@ Document the task, prompt contract, eval cases, and failure examples.
 
 2-4 days.
 
-## Mini-Project: Semantic Search Service
+## Mini Project — Tiny Retrieval Service
+
+Also known as: Semantic Search Service
 
 ### Goal
 
@@ -239,7 +247,9 @@ Explain corpus, chunking, retrieval method, eval set, and results.
 
 3-5 days.
 
-## Mini-Project: Grounded RAG Assistant
+## Mini Project — Cited Q&A Bot
+
+Also known as: Grounded RAG Assistant
 
 ### Goal
 
@@ -282,7 +292,9 @@ Include architecture, sample questions, citations, eval results, and failure mod
 
 4-7 days.
 
-## Mini-Project: Eval and Observability Suite
+## Mini Project — RAG Eval Harness
+
+Also known as: Eval and Observability Suite
 
 ### Goal
 
@@ -324,7 +336,9 @@ Explain metrics, dataset, trace format, results, and release decision.
 
 3-5 days.
 
-## Mini-Project: Tool-Using Task Agent
+## Mini Project — Simple Agent Loop
+
+Also known as: Tool-Using Task Agent
 
 ### Goal
 
@@ -366,7 +380,9 @@ Document goal, tools, loop design, stop conditions, traces, and safety boundarie
 
 4-7 days.
 
-## Mini-Project: AI Product Architecture Doc
+## Mini Project — AI System Design Document
+
+Also known as: AI Product Architecture Doc
 
 ### Goal
 
@@ -407,7 +423,9 @@ Link the architecture doc from the related project README.
 
 1-3 days.
 
-## Mini-Project: LLM Router / Gateway
+## Mini Project — Simple LLM Router
+
+Also known as: LLM Router / Gateway
 
 ### Goal
 
@@ -449,7 +467,9 @@ Include setup, routing policy, failure handling, and runbook.
 
 3-5 days.
 
-## Mini-Project: AI Security Red-Team Report
+## Mini Project — Prompt Injection Test Suite
+
+Also known as: AI Security Red-Team Report
 
 ### Goal
 

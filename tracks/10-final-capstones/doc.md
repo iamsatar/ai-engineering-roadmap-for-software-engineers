@@ -66,11 +66,11 @@ Skip: compliance-only framing.
 
 ## Hands-On Work
 
-Choose one capstone, write the architecture doc, build a thin end-to-end slice, add AI orchestration, add evals, add observability, harden safety, and polish the demo.
+Choose a recommended capstone, write the architecture doc, build a thin end-to-end slice, add AI orchestration, add evals, add observability, harden safety, and polish the demo.
 
 ## Mini Project
 
-Final capstone: one production-grade AI system minimum, or three substantial systems for the strongest job-ready portfolio.
+Final Capstone Portfolio: one production-grade AI system minimum, or three substantial systems for the strongest job-ready portfolio.
 
 ## Deliverables
 

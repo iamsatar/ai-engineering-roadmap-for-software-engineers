@@ -72,7 +72,7 @@ Deploy a previous AI project with timeouts, retry limits, cost tracking, latency
 
 ## Mini Project
 
-LLM Router / Gateway: a deployed AI service with provider abstraction and operational controls.
+Simple LLM Router: a deployed AI service with provider abstraction and operational controls.
 
 ## Deliverables
 

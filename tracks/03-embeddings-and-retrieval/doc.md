@@ -70,7 +70,7 @@ Ingest a realistic corpus, chunk it, embed it, search it, and measure whether ex
 
 ## Mini Project
 
-Semantic Search Service: an API or CLI that returns ranked snippets with metadata and retrieval eval results.
+Tiny Retrieval Service: an API or CLI that returns ranked snippets with metadata and retrieval eval results.
 
 ## Deliverables
 

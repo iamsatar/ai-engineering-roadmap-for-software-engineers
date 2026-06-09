@@ -4,6 +4,18 @@
 
 This is not a link dump. It is a project-based curriculum for engineers who already ship software and now want to build, evaluate, operate, and explain production AI systems.
 
+## Start Here
+
+1. Read [ROADMAP.md](./ROADMAP.md) for the full learning sequence.
+2. Pick a pace in [STUDY_PLAN.md](./STUDY_PLAN.md).
+3. Start with [tracks/00-orientation-and-setup/doc.md](./tracks/00-orientation-and-setup/doc.md).
+4. Build every mini-project before moving on.
+5. Write a short build-log entry after each project.
+6. Use [PROJECTS.md](./PROJECTS.md) when starting capstones.
+7. Use [JOB_READINESS.md](./JOB_READINESS.md) before applying.
+
+Do not try to read everything first. Build from Track 00 onward.
+
 ## Who This Is For
 
 Default learner profile:
@@ -42,31 +54,31 @@ Typical work includes:
 
 | Track | Module | Output |
 |---|---|---|
-| 00 | Orientation & Setup | LLM API healthcheck |
-| 01 | LLM Mechanics for Builders | Tokenizer and embedding playground |
-| 02 | Context Engineering & Prompting | Prompt-as-code module |
-| 03 | Embeddings & Retrieval | Tiny retrieval service |
-| 04 | RAG | Cited Q&A bot |
-| 05 | Evaluation & Observability | RAG eval harness |
-| 06 | Agents & Tool Use | Simple agent loop |
-| 07 | AI Systems Design | AI system design document |
-| 08 | AI Infrastructure Light | Simple LLM router |
-| 09 | Security & Safety | Prompt injection test suite |
-| 10 | Final Capstones | Portfolio-grade projects |
+| 00 | [Orientation & Setup](./tracks/00-orientation-and-setup/doc.md) | LLM API Healthcheck |
+| 01 | [LLM Mechanics for Builders](./tracks/01-llm-mechanics-for-builders/doc.md) | Tokenizer and Embedding Playground |
+| 02 | [Context Engineering & Prompting](./tracks/02-context-engineering-and-prompting/doc.md) | Prompt-as-Code Module |
+| 03 | [Embeddings & Retrieval](./tracks/03-embeddings-and-retrieval/doc.md) | Tiny Retrieval Service |
+| 04 | [RAG](./tracks/04-rag/doc.md) | Cited Q&A Bot |
+| 05 | [Evaluation & Observability](./tracks/05-evaluation-and-observability/doc.md) | RAG Eval Harness |
+| 06 | [Agents & Tool Use](./tracks/06-agents-tool-use-and-loops/doc.md) | Simple Agent Loop |
+| 07 | [AI Systems Design](./tracks/07-ai-systems-design/doc.md) | AI System Design Document |
+| 08 | [AI Infrastructure Light](./tracks/08-ai-infrastructure-light/doc.md) | Simple LLM Router |
+| 09 | [Security & Safety](./tracks/09-security-and-safety/doc.md) | Prompt Injection Test Suite |
+| 10 | [Final Capstones](./tracks/10-final-capstones/doc.md) | Final Capstone Portfolio |
 
 ## Progress Tracker
 
-- [ ] Track 00 - Orientation & Setup
-- [ ] Track 01 - LLM Mechanics for Builders
-- [ ] Track 02 - Context Engineering & Prompting
-- [ ] Track 03 - Embeddings & Retrieval
-- [ ] Track 04 - RAG
-- [ ] Track 05 - Evaluation & Observability
-- [ ] Track 06 - Agents & Tool Use
-- [ ] Track 07 - AI Systems Design
-- [ ] Track 08 - AI Infrastructure Light
-- [ ] Track 09 - Security & Safety
-- [ ] Track 10 - Final Capstones
+- [ ] Track 00 — Orientation & Setup
+- [ ] Track 01 — LLM Mechanics for Builders
+- [ ] Track 02 — Context Engineering & Prompting
+- [ ] Track 03 — Embeddings & Retrieval
+- [ ] Track 04 — RAG
+- [ ] Track 05 — Evaluation & Observability
+- [ ] Track 06 — Agents & Tool Use
+- [ ] Track 07 — AI Systems Design
+- [ ] Track 08 — AI Infrastructure Light
+- [ ] Track 09 — Security & Safety
+- [ ] Track 10 — Final Capstones
 
 ## Role-Based Paths
 

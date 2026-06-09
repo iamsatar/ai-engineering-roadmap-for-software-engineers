@@ -54,19 +54,19 @@ Deprioritize these unless they directly support a project:
 
 Set up an AI engineering workspace with API access, environment management, tracing, basic evals, and a build-log habit.
 
-Deliverable: a runnable starter app that calls an LLM, records inputs and outputs, and logs cost and latency.
+Deliverable: LLM API Healthcheck.
 
 ### Track 01: LLM Mechanics for Builders
 
 Learn practical model behavior: tokens, context windows, sampling, latency, output constraints, structured outputs, and model selection.
 
-Deliverable: an LLM behavior playground that compares prompts, model settings, schema constraints, and token costs.
+Deliverable: Tokenizer and Embedding Playground.
 
 ### Track 02: Context Engineering and Prompting
 
 Move from ad hoc prompting to context design: instructions, examples, decomposition, state, constraints, and regression tests.
 
-Deliverable: a prompt regression harness for a realistic workflow.
+Deliverable: Prompt-as-Code Module.
 
 Connection: Track 02 turns model behavior from Track 01 into testable application behavior.
 
@@ -76,7 +76,7 @@ Connection: Track 02 turns model behavior from Track 01 into testable applicatio
 
 Learn embeddings, vector search, hybrid search, metadata filters, chunking, recall, and retrieval quality.
 
-Deliverable: a semantic search service over a real document corpus.
+Deliverable: Tiny Retrieval Service.
 
 Connection: Track 03 gives Track 04 the retrieval layer needed for grounded answers.
 
@@ -84,7 +84,7 @@ Connection: Track 03 gives Track 04 the retrieval layer needed for grounded answ
 
 Build retrieval-augmented generation systems with grounding, citations, reranking, query rewriting, and answer verification.
 
-Deliverable: a RAG assistant with source citations and failure handling.
+Deliverable: Cited Q&A Bot.
 
 Connection: Track 04 creates the system that Track 05 will evaluate and observe.
 
@@ -94,7 +94,7 @@ Connection: Track 04 creates the system that Track 05 will evaluate and observe.
 
 Create eval sets, automated graders, human review loops, trace instrumentation, cost analysis, and production dashboards.
 
-Deliverable: an eval suite and observability dashboard for your RAG system.
+Deliverable: RAG Eval Harness.
 
 Connection: Track 05 gives Track 06 the measurement discipline needed before adding agent loops.
 
@@ -102,7 +102,7 @@ Connection: Track 05 gives Track 06 the measurement discipline needed before add
 
 Learn tool calling, planning loops, memory, task state, MCP, error recovery, approvals, and agent boundaries.
 
-Deliverable: a tool-using task agent that can complete a bounded workflow.
+Deliverable: Simple Agent Loop.
 
 Connection: Track 06 introduces controlled autonomy that Track 07 will place into a full system design.
 
@@ -110,7 +110,7 @@ Connection: Track 06 introduces controlled autonomy that Track 07 will place int
 
 Design AI systems with product constraints, data flows, failure modes, eval gates, security controls, and operational requirements.
 
-Deliverable: a professional architecture document for a production AI product.
+Deliverable: AI System Design Document.
 
 Connection: Track 07 turns project experience into interview-ready systems thinking.
 
@@ -120,7 +120,7 @@ Connection: Track 07 turns project experience into interview-ready systems think
 
 Learn deployment, queues, caching, rate limits, fallbacks, model routing, vector databases, secrets, and cost controls.
 
-Deliverable: a deployed AI service with operational controls.
+Deliverable: Simple LLM Router.
 
 Connection: Track 08 makes earlier projects deployable and operable.
 
@@ -128,7 +128,7 @@ Connection: Track 08 makes earlier projects deployable and operable.
 
 Study prompt injection, tool abuse, data leakage, unsafe outputs, privacy, authorization, audit logs, and red-team workflows.
 
-Deliverable: a red-team report and mitigation plan for one of your projects.
+Deliverable: Prompt Injection Test Suite.
 
 Connection: Track 09 hardens earlier systems before final portfolio work.
 

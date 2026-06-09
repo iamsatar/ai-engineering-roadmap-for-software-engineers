@@ -2,7 +2,7 @@
 
 ## Goal
 
-Create a versioned prompt module with typed inputs, structured outputs, and regression tests.
+Create a versioned Prompt-as-Code Module with typed inputs, structured outputs, and regression tests.
 
 ## What It Teaches
 

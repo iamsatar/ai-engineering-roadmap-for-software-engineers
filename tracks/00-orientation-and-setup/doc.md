@@ -69,7 +69,7 @@ Build a tiny CLI or web app that sends a prompt to an LLM and records prompt, re
 
 ## Mini Project
 
-AI Engineering Workspace: a runnable starter app with safe environment configuration and structured logs.
+LLM API Healthcheck: a runnable starter app with safe environment configuration and structured logs.
 
 ## Deliverables
 

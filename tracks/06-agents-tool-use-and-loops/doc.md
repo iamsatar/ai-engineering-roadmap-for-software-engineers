@@ -116,7 +116,7 @@ Before running open-ended loops:
 
 ## Mini Project
 
-Tool-Using Task Agent: a bounded workflow agent that uses real tools and logs each loop iteration.
+Simple Agent Loop: a bounded workflow agent that uses real tools and logs each loop iteration.
 
 ## Deliverables
 
