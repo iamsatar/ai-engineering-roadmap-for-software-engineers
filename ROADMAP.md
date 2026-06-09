@@ -2,6 +2,43 @@
 
 This roadmap assumes you are already a capable software engineer. The goal is to add applied AI engineering judgment: how to build systems that use models, tools, retrieval, evaluation, and operations responsibly.
 
+Default learner profile:
+
+- Experienced software engineer
+- Comfortable with Git, APIs, CI/CD, frontend/backend basics
+- Studying 12-15 hours/week
+- Targeting AI Engineer, Applied AI Engineer, Agent Engineer, AI Platform Engineer, FDE, or Full Stack AI Engineer roles
+
+## How This Differs From Zero-to-Hero Roadmaps
+
+This roadmap does not spend months on beginner programming, DSA drills, calculus, deep learning from scratch, computer vision, reinforcement learning, or model pretraining.
+
+It assumes software engineering maturity and focuses on the AI systems layer:
+
+- LLM application behavior
+- context engineering
+- structured outputs
+- embeddings and retrieval
+- RAG
+- evals and observability
+- agents and tool use
+- AI system design
+- infrastructure basics
+- security and safety
+- portfolio-grade capstones
+
+## What To Skip Or Deprioritize
+
+Deprioritize these unless they directly support a project:
+
+- training foundation models
+- implementing transformers from scratch
+- computer vision specialization
+- reinforcement learning specialization
+- prompt-hack collections
+- generic beginner programming content
+- forked tutorial repos as portfolio projects
+
 ## Principles
 
 - Build before collecting links.
@@ -31,6 +68,8 @@ Move from ad hoc prompting to context design: instructions, examples, decomposit
 
 Deliverable: a prompt regression harness for a realistic workflow.
 
+Connection: Track 02 turns model behavior from Track 01 into testable application behavior.
+
 ## Phase 2: Retrieval and Grounding
 
 ### Track 03: Embeddings and Retrieval
@@ -39,11 +78,15 @@ Learn embeddings, vector search, hybrid search, metadata filters, chunking, reca
 
 Deliverable: a semantic search service over a real document corpus.
 
+Connection: Track 03 gives Track 04 the retrieval layer needed for grounded answers.
+
 ### Track 04: RAG
 
 Build retrieval-augmented generation systems with grounding, citations, reranking, query rewriting, and answer verification.
 
 Deliverable: a RAG assistant with source citations and failure handling.
+
+Connection: Track 04 creates the system that Track 05 will evaluate and observe.
 
 ## Phase 3: Quality, Agents, and Systems
 
@@ -53,17 +96,23 @@ Create eval sets, automated graders, human review loops, trace instrumentation, 
 
 Deliverable: an eval suite and observability dashboard for your RAG system.
 
+Connection: Track 05 gives Track 06 the measurement discipline needed before adding agent loops.
+
 ### Track 06: Agents, Tool Use, and Loops
 
 Learn tool calling, planning loops, memory, task state, MCP, error recovery, approvals, and agent boundaries.
 
 Deliverable: a tool-using task agent that can complete a bounded workflow.
 
+Connection: Track 06 introduces controlled autonomy that Track 07 will place into a full system design.
+
 ### Track 07: AI Systems Design
 
 Design AI systems with product constraints, data flows, failure modes, eval gates, security controls, and operational requirements.
 
 Deliverable: a professional architecture document for a production AI product.
+
+Connection: Track 07 turns project experience into interview-ready systems thinking.
 
 ## Phase 4: Production Readiness
 
@@ -73,11 +122,15 @@ Learn deployment, queues, caching, rate limits, fallbacks, model routing, vector
 
 Deliverable: a deployed AI service with operational controls.
 
+Connection: Track 08 makes earlier projects deployable and operable.
+
 ### Track 09: Security and Safety
 
 Study prompt injection, tool abuse, data leakage, unsafe outputs, privacy, authorization, audit logs, and red-team workflows.
 
 Deliverable: a red-team report and mitigation plan for one of your projects.
+
+Connection: Track 09 hardens earlier systems before final portfolio work.
 
 ### Track 10: Final Capstones
 
@@ -94,6 +147,7 @@ Build one production-grade capstone deeply.
 It must include:
 
 - working application
+- deployed demo if possible
 - strong README
 - architecture document
 - eval report
@@ -115,27 +169,132 @@ If you are time-constrained, build one deeply.
 If you want the strongest portfolio signal, build all three.
 For most job applications, two strong capstones are better than three unfinished ones.
 
+### Optional Infrastructure Capstone
+
+4. LLM Gateway / Router
+
+This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles. It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
+
 ## Role-Based Paths
 
 ### AI Engineer / Applied AI Engineer
 
-Prioritize RAG, evals, agents, system design, and Capstone 1 + Capstone 2.
+Prioritize:
+
+1. RAG
+2. Evals
+3. Agents
+4. System design
+5. Product-quality capstones
+
+Recommended capstones:
+
+- Engineering Knowledge Assistant
+- Autonomous PR Review Agent
 
 ### Agent Engineer
 
-Prioritize tool calling, agent loops, MCP, memory and state, verification, and stop conditions.
+Prioritize:
+
+1. Tool calling
+2. Agent loops
+3. MCP
+4. Memory and state
+5. Verification and stop conditions
+
+Recommended capstones:
+
+- Autonomous PR Review Agent
+- Agentic Business Workflow Copilot
 
 ### Forward Deployed Engineer
 
-Prioritize business workflow analysis, RAG over messy data, tool actions, human approval, product UX, and customer-facing explanation.
+Prioritize:
+
+1. Business workflow analysis
+2. RAG over messy real-world data
+3. Tool actions
+4. Human approval flows
+5. Customer-facing UX and explanation
+
+Recommended capstones:
+
+- Agentic Business Workflow Copilot
+- Engineering Knowledge Assistant
 
 ### AI Platform Engineer
 
-Prioritize evals, observability, routing, caching, cost controls, latency controls, and gateway patterns.
+Prioritize:
+
+1. Evals
+2. Observability
+3. Model routing
+4. Caching
+5. Cost and latency controls
+
+Recommended capstones:
+
+- LLM Gateway / Router
+- Engineering Knowledge Assistant
+- Autonomous PR Review Agent
 
 ### Full Stack AI Engineer
 
-Prioritize product UX, RAG, tool calling, streaming UI, auth, and deployment.
+Prioritize:
+
+1. Product UX
+2. RAG
+3. Tool calling
+4. Streaming UI
+5. Auth and deployment
+
+Recommended capstones:
+
+- Engineering Knowledge Assistant
+- Agentic Business Workflow Copilot
+
+## Assessment Gates
+
+### Gate 1 — After Track 03
+
+You should be able to:
+
+- explain tokens, embeddings, and context windows
+- build a structured-output API call
+- build a small retrieval service
+- evaluate precision@k manually
+
+### Gate 2 — After Track 05
+
+You should be able to:
+
+- build a RAG app with citations
+- create a small golden dataset
+- measure faithfulness or groundedness
+- trace cost and latency
+- explain RAG failure modes
+
+### Gate 3 — After Track 06
+
+You should be able to:
+
+- build a tool-calling agent
+- explain goal -> plan -> act -> observe -> verify -> iterate
+- add stop conditions
+- limit tool permissions
+- log every loop step
+
+### Gate 4 — Before Applying
+
+You should have:
+
+- at least one production-grade deployed capstone
+- ideally three strong capstones
+- eval reports
+- architecture docs
+- demo videos or screenshots
+- resume bullets
+- clear explanations of tradeoffs
 
 ## Completion Standard
 

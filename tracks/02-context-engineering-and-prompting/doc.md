@@ -18,7 +18,7 @@ By the end of this track, the learner should be able to:
 - Version prompts and run regression tests.
 - Design clear output contracts.
 
-## Core Concepts
+## Core Topics
 
 - System and user context
 - Few-shot examples

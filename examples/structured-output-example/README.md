@@ -24,7 +24,7 @@ Production AI apps should pass structured data between components. Parsing free 
 - [ ] The app handles refusal or missing fields.
 - [ ] The README includes sample input and output.
 
-## Optional Stretch Goals
+## Stretch Goals
 
 - Add multiple schema versions.
 - Add a prompt regression test.

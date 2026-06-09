@@ -1,37 +1,43 @@
-# Mini-Project: LLM Behavior Playground
+# Mini Project — Tokenizer and Embedding Playground
 
-## Objective
+## Goal
 
-Build a playground that compares how prompts, model settings, and output constraints affect behavior.
+Build a small playground that compares token counts, embeddings, model settings, and structured-output behavior.
+
+## What It Teaches
+
+Tokenization, context budgeting, embedding intuition, temperature, output length, schema adherence, cost, and latency.
+
+## Suggested Stack
+
+TypeScript, Node.js, React or CLI, tokenizer library, provider SDK, schema validator.
 
 ## Requirements
 
-- Input prompt and system instruction.
-- Select model and temperature.
-- Show token estimate or usage.
-- Support free-text and structured-output modes.
-- Record results in a table or log.
-- Include at least five comparison experiments.
+- Compare token counts for prose, code, JSON, and tables.
+- Generate embeddings for sample text and compare similarity.
+- Run at least two model settings.
+- Validate structured outputs.
+- Save experiment notes.
 
-## Evaluation
+## Acceptance Criteria
 
-Create tests for:
-
-- Deterministic extraction
-- Creative generation
-- JSON schema adherence
-- Long context behavior
-- Refusal or abstention behavior
-
-## Deliverables
-
-- Playground code
-- Experiment notes
-- Comparison table
-- Build-log entry
+- [ ] At least five experiments are documented.
+- [ ] Token usage or estimates are visible.
+- [ ] Structured-output failures are detected.
+- [ ] Cost and latency are captured.
+- [ ] The README explains practical lessons.
 
 ## Stretch Goals
 
 - Add side-by-side model comparison.
-- Add automatic schema validation.
-- Add cost estimates per run.
+- Add a scatterplot or table for embedding similarity.
+- Add prompt caching notes.
+
+## README Expectations
+
+Include experiment setup, examples, observations, failure cases, and cost notes.
+
+## Estimated Time
+
+2-3 days.

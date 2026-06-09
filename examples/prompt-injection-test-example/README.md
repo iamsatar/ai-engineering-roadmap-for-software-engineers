@@ -24,7 +24,7 @@ RAG and agent systems often include untrusted content. The model can read that c
 - [ ] Tests check for unauthorized tool use.
 - [ ] Mitigations are documented.
 
-## Optional Stretch Goals
+## Stretch Goals
 
 - Add automated attack regression tests.
 - Add severity scoring.

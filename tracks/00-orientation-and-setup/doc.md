@@ -18,7 +18,7 @@ By the end of this track, the learner should be able to:
 - Track latency, token usage, and errors.
 - Maintain a build log.
 
-## Core Concepts
+## Core Topics
 
 - AI app anatomy
 - Provider APIs

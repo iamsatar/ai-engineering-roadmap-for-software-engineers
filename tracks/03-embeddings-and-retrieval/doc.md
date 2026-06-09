@@ -18,7 +18,7 @@ By the end of this track, the learner should be able to:
 - Compare vector, keyword, and hybrid retrieval.
 - Measure retrieval quality.
 
-## Core Concepts
+## Core Topics
 
 - Embeddings
 - Vector search

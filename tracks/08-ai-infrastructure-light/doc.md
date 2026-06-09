@@ -18,7 +18,7 @@ By the end of this track, the learner should be able to:
 - Understand routing and caching.
 - Write a basic operational runbook.
 
-## Core Concepts
+## Core Topics
 
 - Deployment
 - Queues

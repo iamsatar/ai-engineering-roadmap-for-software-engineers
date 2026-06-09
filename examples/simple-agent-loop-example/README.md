@@ -26,7 +26,7 @@ The hard part of agents is not calling tools. The hard part is boundaries, state
 - [ ] The loop has a max-iteration limit.
 - [ ] The agent fails safely when stuck.
 
-## Optional Stretch Goals
+## Stretch Goals
 
 - Add human approval before side effects.
 - Add replayable traces.

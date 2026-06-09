@@ -18,7 +18,7 @@ By the end of this track, the learner should be able to:
 - Trace model, retrieval, and tool steps.
 - Track cost, latency, and quality.
 
-## Core Concepts
+## Core Topics
 
 - Golden datasets
 - Human evaluation

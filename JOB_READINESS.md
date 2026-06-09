@@ -86,6 +86,49 @@ You are ready to apply when you can:
 - [ ] Demo video or screenshots.
 - [ ] Resume bullets.
 
+## Assessment Gates
+
+### Gate 1 — After Track 03
+
+You should be able to:
+
+- explain tokens, embeddings, and context windows
+- build a structured-output API call
+- build a small retrieval service
+- evaluate precision@k manually
+
+### Gate 2 — After Track 05
+
+You should be able to:
+
+- build a RAG app with citations
+- create a small golden dataset
+- measure faithfulness or groundedness
+- trace cost and latency
+- explain RAG failure modes
+
+### Gate 3 — After Track 06
+
+You should be able to:
+
+- build a tool-calling agent
+- explain goal -> plan -> act -> observe -> verify -> iterate
+- add stop conditions
+- limit tool permissions
+- log every loop step
+
+### Gate 4 — Before Applying
+
+You should have:
+
+- at least one production-grade deployed capstone
+- ideally three strong capstones
+- eval reports
+- architecture docs
+- demo videos or screenshots
+- resume bullets
+- clear explanations of tradeoffs
+
 ## Capstone Standard
 
 There are two completion levels.
@@ -97,6 +140,7 @@ Build one production-grade capstone deeply.
 It must include:
 
 - working application
+- deployed demo if possible
 - strong README
 - architecture document
 - eval report
@@ -117,6 +161,12 @@ Build three substantial capstones:
 If you are time-constrained, build one deeply.
 If you want the strongest portfolio signal, build all three.
 For most job applications, two strong capstones are better than three unfinished ones.
+
+### Optional Infrastructure Capstone
+
+4. LLM Gateway / Router
+
+This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles. It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
 
 ## Role Signals
 

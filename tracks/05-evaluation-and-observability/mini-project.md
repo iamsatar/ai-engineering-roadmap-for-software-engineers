@@ -1,40 +1,43 @@
-# Mini-Project: Eval and Observability Suite
+# Mini Project — RAG Eval Harness
 
-## Objective
+## Goal
 
-Add evaluation and observability to a previous AI project.
+Add an eval runner and observability layer to a RAG project.
+
+## What It Teaches
+
+Golden datasets, regression tests, faithfulness checks, LLM-as-judge limits, traces, cost, latency, and release gates.
+
+## Suggested Stack
+
+TypeScript, Node.js, JSON/CSV eval sets, Langfuse or OpenTelemetry, optional Ragas/DeepEval.
 
 ## Requirements
 
-- Run eval cases from a command.
+- Run eval cases from one command.
 - Store results by version.
-- Track cost and latency.
-- Capture trace steps.
-- Classify failures.
+- Track answer quality, citation quality, cost, and latency.
+- Capture retrieval and generation traces.
 - Produce an eval report.
 
-## Metrics
+## Acceptance Criteria
 
-Choose relevant metrics:
-
-- Task success
-- Grounding
-- Citation correctness
-- Tool-call correctness
-- Abstention quality
-- Latency
-- Cost
-- User feedback
-
-## Deliverables
-
-- Eval runner
-- Result history
-- Trace logs or dashboard
-- Eval report
+- [ ] Eval cases run reproducibly.
+- [ ] Failures are categorized.
+- [ ] Results are stored by version.
+- [ ] Traces include retrieved chunks and model calls.
+- [ ] The eval report includes a release decision.
 
 ## Stretch Goals
 
-- Add CI gating for regressions.
-- Add a small review UI.
-- Add production-style dashboards.
+- Add CI regression gates.
+- Add human review UI.
+- Add dashboard screenshots.
+
+## README Expectations
+
+Include metrics, dataset, scoring rubric, trace format, results, and failure analysis.
+
+## Estimated Time
+
+3-5 days.

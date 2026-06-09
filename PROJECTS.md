@@ -13,6 +13,7 @@ Build one production-grade capstone deeply.
 It must include:
 
 - working application
+- deployed demo if possible
 - strong README
 - architecture document
 - eval report
@@ -33,6 +34,46 @@ Build three substantial capstones:
 If you are time-constrained, build one deeply.
 If you want the strongest portfolio signal, build all three.
 For most job applications, two strong capstones are better than three unfinished ones.
+
+### Optional Infrastructure Capstone
+
+4. LLM Gateway / Router
+
+This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles. It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
+
+## Capstone Quality Bar
+
+A capstone is not done when the app works locally.
+
+A capstone is done when another engineer can:
+
+1. understand the problem
+2. run the app
+3. inspect the architecture
+4. see eval results
+5. understand cost/latency tradeoffs
+6. understand security limitations
+7. watch or use a demo
+
+## Required README Sections
+
+Every capstone README should include:
+
+- Problem
+- Demo
+- Screenshots or video
+- Architecture
+- Data flow
+- How it works
+- Setup
+- Environment variables
+- Evaluation
+- Observability
+- Cost and latency
+- Security
+- Known limitations
+- Future improvements
+- Resume bullets
 
 ## Mini-Project: AI Engineering Workspace
 
@@ -501,6 +542,24 @@ TypeScript, React, Node.js, Postgres/pgvector or Qdrant, model provider SDK, Lan
 
 Include problem, demo, architecture, eval report, security notes, limitations, and resume bullets.
 
+Required README sections:
+
+- Problem
+- Demo
+- Screenshots or video
+- Architecture
+- Data flow
+- How it works
+- Setup
+- Environment variables
+- Evaluation
+- Observability
+- Cost and latency
+- Security
+- Known limitations
+- Future improvements
+- Resume bullets
+
 ### Estimated Time
 
 4-8 weeks.
@@ -555,6 +614,24 @@ TypeScript or Python, GitHub API, provider SDK, repository tools, trace store.
 ### README Expectations
 
 Include demo PRs, finding schema, eval results, approval flow, and security notes.
+
+Required README sections:
+
+- Problem
+- Demo
+- Screenshots or video
+- Architecture
+- Data flow
+- How it works
+- Setup
+- Environment variables
+- Evaluation
+- Observability
+- Cost and latency
+- Security
+- Known limitations
+- Future improvements
+- Resume bullets
 
 ### Estimated Time
 
@@ -611,6 +688,81 @@ TypeScript, React, Node.js, mock CRM/ticket/calendar APIs, provider SDK, trace s
 ### README Expectations
 
 Include workflow narrative, screenshots, architecture, evals, security notes, and resume bullets.
+
+Required README sections:
+
+- Problem
+- Demo
+- Screenshots or video
+- Architecture
+- Data flow
+- How it works
+- Setup
+- Environment variables
+- Evaluation
+- Observability
+- Cost and latency
+- Security
+- Known limitations
+- Future improvements
+- Resume bullets
+
+### Estimated Time
+
+4-8 weeks.
+
+## Optional Capstone: LLM Gateway / Router
+
+### Goal
+
+Build an operational gateway for routing, observing, and controlling LLM usage across applications.
+
+### What It Teaches
+
+AI platform engineering, provider abstraction, model routing, cost controls, caching, rate limits, fallbacks, tracing, and developer experience.
+
+### Suggested Stack
+
+TypeScript, Node.js, LiteLLM optional, Redis optional, Postgres optional, OpenTelemetry or Langfuse.
+
+### Requirements
+
+- Route requests through a gateway layer.
+- Support at least two model/provider configurations.
+- Track cost, latency, and errors.
+- Add retry limits and fallback policy.
+- Include basic developer-facing documentation.
+
+### Production-Grade Requirements
+
+- eval suite
+- tracing
+- cost tracking
+- latency notes
+- error handling
+- security considerations
+- architecture document
+- demo video or screenshots
+- resume bullets
+
+### Acceptance Criteria
+
+- Requests are observable.
+- Routing policy is documented.
+- Cost and latency are visible.
+- Failure behavior is bounded.
+- The gateway can be used by another small app.
+
+### Stretch Goals
+
+- Add budgets by user or app.
+- Add caching.
+- Add model quality comparison.
+- Add admin dashboard.
+
+### README Expectations
+
+Include problem, demo, screenshots or video, architecture, data flow, how it works, setup, environment variables, evaluation, observability, cost and latency, security, known limitations, future improvements, and resume bullets.
 
 ### Estimated Time
 

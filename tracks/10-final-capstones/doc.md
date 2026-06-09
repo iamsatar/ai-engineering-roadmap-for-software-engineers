@@ -18,7 +18,7 @@ By the end of this track, the learner should be able to:
 - Add observability, cost, latency, and security notes.
 - Explain the project in interviews.
 
-## Core Concepts
+## Core Topics
 
 - Product workflow
 - Architecture
@@ -116,6 +116,7 @@ Build one production-grade capstone deeply.
 It must include:
 
 - working application
+- deployed demo if possible
 - strong README
 - architecture document
 - eval report
@@ -136,6 +137,12 @@ Build three substantial capstones:
 If you are time-constrained, build one deeply.
 If you want the strongest portfolio signal, build all three.
 For most job applications, two strong capstones are better than three unfinished ones.
+
+### Optional Infrastructure Capstone
+
+4. LLM Gateway / Router
+
+This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles. It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
 
 ## Move On When
 

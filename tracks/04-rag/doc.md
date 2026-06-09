@@ -18,7 +18,7 @@ By the end of this track, the learner should be able to:
 - Refuse when evidence is weak.
 - Explain common RAG failure modes.
 
-## Core Concepts
+## Core Topics
 
 - Document ingestion
 - Chunking

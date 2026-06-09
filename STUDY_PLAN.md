@@ -1,6 +1,6 @@
 # Study Plan
 
-Choose a pace based on available time. The 28-week plan is the recommended job-ready path for someone studying while working full-time.
+Choose a pace based on available time. The 28-week plan is the recommended job-ready path for the default learner profile: an experienced software engineer studying 12-15 hours/week while working full-time.
 
 ## Rule
 
@@ -19,6 +19,47 @@ Better pattern:
 ## 28-Week Job-Ready Plan
 
 This is the recommended plan for someone studying 12-15 hours per week while working full-time.
+
+Recommended timeline: 6-8 months.
+
+Example calendar path:
+
+- Month 1: setup, LLM mechanics, context engineering
+- Month 2: embeddings, retrieval, RAG
+- Month 3: evals and observability
+- Month 4: agents and tool use
+- Month 5: system design and flagship build
+- Month 6: AI infra light and security
+- Month 7-8: capstone polish and job applications
+
+Example dated path:
+
+- June 2026: setup, LLM mechanics, context engineering
+- July 2026: embeddings, retrieval, and RAG
+- August 2026: evals and observability
+- September 2026: agents and tool use
+- October 2026: AI system design and flagship build
+- November 2026: AI infrastructure light and security
+- December 2026-January 2027: capstone polish
+- February 2027: job applications and interview practice
+
+## Weekly Hours Allocation
+
+Baseline: 12-15 hours/week.
+
+| Category | Early Phase | Mid Phase | Late Phase |
+|---|---:|---:|---:|
+| LLM mechanics + context engineering | 3 hrs | 1 hr | 0.5 hr |
+| Embeddings, retrieval, and RAG | 3 hrs | 1.5 hrs | 0.5 hr |
+| Agents and tool use | 2 hrs | 3 hrs | 1 hr |
+| Evals and observability | 1.5 hrs | 2 hrs | 1.5 hrs |
+| AI systems design | 1.5 hrs | 2 hrs | 1 hr |
+| AI infrastructure | 0 hrs | 1 hr | 2 hrs |
+| Security and safety | 0 hrs | 0.5 hr | 1 hr |
+| Capstone build time | 3 hrs | 5 hrs | 4 hrs |
+| Job prep / writing / portfolio | 1 hr | 1 hr | 4 hrs |
+
+These are not strict quotas. They show emphasis by phase. Building should stay at 45-60% of total time.
 
 ## Weekly Cadence
 
@@ -105,6 +146,7 @@ Build one production-grade capstone deeply.
 It must include:
 
 - working application
+- deployed demo if possible
 - strong README
 - architecture document
 - eval report
@@ -125,6 +167,32 @@ Build three substantial capstones:
 If you are time-constrained, build one deeply.
 If you want the strongest portfolio signal, build all three.
 For most job applications, two strong capstones are better than three unfinished ones.
+
+### Optional Infrastructure Capstone
+
+4. LLM Gateway / Router
+
+This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles. It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
+
+## Agent Loop Cost Warning
+
+Agents can burn tokens quickly because every loop iteration may include:
+
+- current goal
+- context
+- tool outputs
+- previous attempts
+- verification steps
+- retries
+
+Before running open-ended loops:
+
+- set a max iteration count
+- set a max cost per run
+- log token usage
+- use small test cases first
+- prefer closed loops before open-ended autonomy
+- add stop conditions
 
 ## Weekly Rhythm
 

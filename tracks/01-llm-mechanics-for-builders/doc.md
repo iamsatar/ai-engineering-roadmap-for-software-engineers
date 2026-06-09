@@ -18,7 +18,7 @@ By the end of this track, the learner should be able to:
 - Use structured outputs instead of fragile text parsing.
 - Choose models based on task constraints.
 
-## Core Concepts
+## Core Topics
 
 - Tokens
 - Context windows

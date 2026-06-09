@@ -1,46 +1,43 @@
-# Mini-Project: Prompt Regression Harness
+# Mini Project — Prompt-as-Code Module
 
-## Objective
+## Goal
 
-Build a harness that runs a prompt against a fixed set of cases and reports whether outputs meet expectations.
+Create a versioned prompt module with typed inputs, structured outputs, and regression tests.
+
+## What It Teaches
+
+Context engineering, prompt specs, examples, output contracts, prompt versioning, and regression testing.
+
+## Suggested Stack
+
+TypeScript, Node.js, Zod or JSON Schema, Vitest/Jest, provider SDK.
 
 ## Requirements
 
-- Store prompt versions.
-- Store test cases.
-- Run all cases from a command.
-- Validate structured outputs.
+- Store prompt versions in code.
+- Define typed inputs and structured outputs.
+- Run a fixed set of test cases.
+- Include adversarial or confusing user content.
 - Report pass, fail, and review-needed cases.
-- Keep examples of bad outputs.
 
-## Suggested Workflow
+## Acceptance Criteria
 
-Use a task such as:
-
-- Support ticket triage
-- Meeting summary extraction
-- Bug report classification
-- Requirements-to-user-stories conversion
-
-## Evaluation
-
-Include:
-
-- Happy paths
-- Ambiguous inputs
-- Adversarial instructions inside user content
-- Missing information
-- Long noisy input
-
-## Deliverables
-
-- Harness code
-- Test dataset
-- Prompt versions
-- Eval report
+- [ ] At least 20 test cases exist.
+- [ ] Prompt versions can be compared.
+- [ ] Structured outputs are validated.
+- [ ] Bad outputs are saved for analysis.
+- [ ] The README explains the prompt contract.
 
 ## Stretch Goals
 
-- Add LLM-as-judge with a human review rubric.
-- Add CI integration.
+- Add CI.
+- Add LLM-as-judge with human review.
 - Add prompt diff notes.
+
+## README Expectations
+
+Include the task, prompt contract, eval cases, failure examples, and versioning approach.
+
+## Estimated Time
+
+2-4 days.

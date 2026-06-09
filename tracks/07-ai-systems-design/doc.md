@@ -18,7 +18,7 @@ By the end of this track, the learner should be able to:
 - Explain cost and latency tradeoffs.
 - Plan rollout and rollback.
 
-## Core Concepts
+## Core Topics
 
 - Product requirements
 - Data flow

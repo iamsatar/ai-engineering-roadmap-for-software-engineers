@@ -1,14 +1,17 @@
 # AI Engineering Roadmap for Software Engineers
 
-## Tagline
+> A build-first roadmap for experienced software engineers learning RAG, agents, evals, context engineering, AI systems design, infrastructure, and safety.
 
-A build-first roadmap for experienced software engineers learning RAG, agents, evals, context engineering, AI systems design, infrastructure, and safety.
+This is not a link dump. It is a project-based curriculum for engineers who already ship software and now want to build, evaluate, operate, and explain production AI systems.
 
 ## Who This Is For
 
-This roadmap is for software engineers with 4-6+ years of experience who already know how to ship software and want to move into AI Engineer, Applied AI Engineer, Agent Engineer, AI Platform Engineer, Forward Deployed Engineer, or Full Stack AI Engineer roles.
+Default learner profile:
 
-You should already be comfortable with Git, APIs, JavaScript or TypeScript, React, Node.js, backend systems, CI/CD, databases, auth, and deployment basics.
+- Experienced software engineer
+- Comfortable with Git, APIs, CI/CD, frontend/backend basics
+- Studying 12-15 hours/week
+- Targeting AI Engineer, Applied AI Engineer, Agent Engineer, AI Platform Engineer, FDE, or Full Stack AI Engineer roles
 
 ## Who This Is Not For
 
@@ -20,8 +23,6 @@ This roadmap is not designed for:
 - People looking only for prompt hacks
 - Computer vision or reinforcement learning specialization
 - Deep learning theory as the main goal
-
-The focus is applied AI engineering: building useful AI systems on top of models, tools, retrieval, evals, and production infrastructure.
 
 ## What an AI Engineer Actually Does
 
@@ -37,44 +38,21 @@ Typical work includes:
 - Handling prompt injection, data leakage, and tool misuse risks
 - Turning unclear product or customer problems into reliable AI features
 
-## Learning Philosophy
+## Curriculum Overview
 
-- Build before collecting links.
-- Evaluate before trusting demos.
-- Design systems, not isolated prompts.
-- Treat AI features as probabilistic distributed systems.
-- Keep humans in the loop where risk or ambiguity is high.
-- Produce portfolio artifacts while you learn.
-
-## Outcomes
-
-By the end, you should be able to:
-
-- Explain LLM mechanics in practical builder terms
-- Use tokenization, context windows, sampling settings, and structured outputs deliberately
-- Build reliable workflows with prompts, tools, retrieval, and evaluators
-- Design RAG systems with chunking, embedding, retrieval, reranking, grounding, and citations
-- Create agent loops with tool calling, planning, memory, guardrails, and human review
-- Instrument AI applications with traces, cost, latency, quality, and failure analytics
-- Reason about security, safety, prompt injection, data exposure, and abuse cases
-- Build capstone projects that demonstrate production judgment
-- Discuss AI system design in interviews and customer-facing technical conversations
-
-## Roadmap Structure
-
-| Track | Focus | Output |
+| Track | Module | Output |
 |---|---|---|
-| 00 | Orientation and Setup | Local AI engineering workspace |
-| 01 | LLM Mechanics for Builders | Token and model behavior playground |
-| 02 | Context Engineering and Prompting | Prompt regression harness |
-| 03 | Embeddings and Retrieval | Semantic search service |
-| 04 | RAG | Grounded knowledge assistant |
-| 05 | Evaluation and Observability | Eval suite and trace dashboard |
-| 06 | Agents, Tool Use, and Loops | Tool-using task agent |
-| 07 | AI Systems Design | Architecture doc for an AI product |
-| 08 | AI Infrastructure Light | LLM router/gateway |
-| 09 | Security and Safety | Red-team and mitigation report |
-| 10 | Final Capstones | Portfolio-grade production projects |
+| 00 | Orientation & Setup | LLM API healthcheck |
+| 01 | LLM Mechanics for Builders | Tokenizer and embedding playground |
+| 02 | Context Engineering & Prompting | Prompt-as-code module |
+| 03 | Embeddings & Retrieval | Tiny retrieval service |
+| 04 | RAG | Cited Q&A bot |
+| 05 | Evaluation & Observability | RAG eval harness |
+| 06 | Agents & Tool Use | Simple agent loop |
+| 07 | AI Systems Design | AI system design document |
+| 08 | AI Infrastructure Light | Simple LLM router |
+| 09 | Security & Safety | Prompt injection test suite |
+| 10 | Final Capstones | Portfolio-grade projects |
 
 ## Progress Tracker
 
@@ -84,7 +62,7 @@ By the end, you should be able to:
 - [ ] Track 03 - Embeddings & Retrieval
 - [ ] Track 04 - RAG
 - [ ] Track 05 - Evaluation & Observability
-- [ ] Track 06 - Agents, Tool Use & Loops
+- [ ] Track 06 - Agents & Tool Use
 - [ ] Track 07 - AI Systems Design
 - [ ] Track 08 - AI Infrastructure Light
 - [ ] Track 09 - Security & Safety
@@ -100,7 +78,7 @@ Prioritize:
 2. Evals
 3. Agents
 4. System design
-5. Capstone 1 + Capstone 2
+5. Product-quality capstones
 
 Recommended capstones:
 
@@ -127,10 +105,10 @@ Recommended capstones:
 Prioritize:
 
 1. Business workflow analysis
-2. RAG over messy data
+2. RAG over messy real-world data
 3. Tool actions
-4. Human approval
-5. Product UX and customer-facing explanation
+4. Human approval flows
+5. Customer-facing UX and explanation
 
 Recommended capstones:
 
@@ -143,7 +121,7 @@ Prioritize:
 
 1. Evals
 2. Observability
-3. Routing
+3. Model routing
 4. Caching
 5. Cost and latency controls
 
@@ -168,22 +146,6 @@ Recommended capstones:
 - Engineering Knowledge Assistant
 - Agentic Business Workflow Copilot
 
-## Study Cadence
-
-Use [STUDY_PLAN.md](./STUDY_PLAN.md) for 8-week, 12-week, 16-week, and 28-week plans.
-
-Rule: every concept should become code within a few days.
-
-Bad pattern:
-
-- 80% watching
-- 20% building
-
-Better pattern:
-
-- 40% studying
-- 60% building
-
 ## Capstone Standard
 
 There are two completion levels.
@@ -195,6 +157,7 @@ Build one production-grade capstone deeply.
 It must include:
 
 - working application
+- deployed demo if possible
 - strong README
 - architecture document
 - eval report
@@ -216,38 +179,35 @@ If you are time-constrained, build one deeply.
 If you want the strongest portfolio signal, build all three.
 For most job applications, two strong capstones are better than three unfinished ones.
 
-## Suggested Capstone Path
+### Optional Infrastructure Capstone
 
-For a strong applied AI portfolio:
+4. LLM Gateway / Router
 
-1. Build the Engineering Knowledge Assistant to prove RAG, retrieval evals, citations, and observability.
-2. Build the Autonomous PR Review Agent to prove tool use, agent loops, code reasoning, and approval gates.
-3. Build the Agentic Business Workflow Copilot to prove customer workflow thinking, tool permissions, and FDE-style execution.
+This is recommended for learners targeting AI Platform Engineer or AI Infrastructure Engineer roles. It is optional for AI Engineer, Applied AI Engineer, Agent Engineer, and FDE paths.
 
 ## How To Use This Repo
 
-1. Read the current track document.
-2. Build the mini-project.
-3. Write a build log entry.
-4. Complete the checklist.
-5. Push your code and notes.
-6. Repeat until you have at least one production-grade capstone.
-
-The repo is designed so your learning artifacts become portfolio artifacts: architecture docs, eval reports, demos, tradeoff notes, and working systems.
+1. Read [ROADMAP.md](./ROADMAP.md) to understand the full sequence.
+2. Pick a pace from [STUDY_PLAN.md](./STUDY_PLAN.md).
+3. Work through one track at a time in [tracks/](./tracks).
+4. Build each mini-project and write a build-log entry.
+5. Use [PROJECTS.md](./PROJECTS.md) for capstone requirements.
+6. Use [JOB_READINESS.md](./JOB_READINESS.md) before applying.
 
 ## Repository Map
 
 - [ROADMAP.md](./ROADMAP.md): Full curriculum sequence
 - [STUDY_PLAN.md](./STUDY_PLAN.md): 8, 12, 16, and 28 week pacing plans
-- [PROJECTS.md](./PROJECTS.md): Mini-project and capstone index
-- [RESOURCES.md](./RESOURCES.md): Track-based resources with links
-- [JOB_READINESS.md](./JOB_READINESS.md): Portfolio, interview, and role preparation
-- [tracks/](./tracks): Track-by-track lessons and projects
-- [templates/](./templates): Reusable docs for projects, architecture, evals, and build logs
+- [PROJECTS.md](./PROJECTS.md): Mini-project and capstone specs
+- [RESOURCES.md](./RESOURCES.md): Track-based resource guide
+- [JOB_READINESS.md](./JOB_READINESS.md): Portfolio, interview, and application prep
+- [tracks/](./tracks): Track docs and mini-projects
+- [templates/](./templates): Project, architecture, eval, and build-log templates
 - [checklists/](./checklists): Progress and quality checklists
 - [examples/](./examples): Starter example specs
-- [case-studies/](./case-studies): Case-study templates for portfolio writing
-- [build-log/](./build-log): Your weekly learning journal
+- [case-studies/](./case-studies): Case-study templates
+- [INSPIRATION.md](./INSPIRATION.md): Inspiration and attribution note
+- [build-log/](./build-log): Learning journal
 
 ## Estimated Cost
 
@@ -266,22 +226,7 @@ Recommended monthly budget for serious practice:
 
 Avoid running large, unbounded agent loops until you understand cost tracking, retries, and stop conditions.
 
-## Provider Neutrality
-
-The concepts matter more than the provider.
-
-You can use:
-
-- OpenAI
-- Anthropic
-- Gemini
-- local models
-- OpenRouter
-- LiteLLM-compatible providers
-
-The goal is to learn transferable AI engineering patterns, not one vendor's SDK.
-
-## GitHub Repo Metadata Suggestions
+## GitHub Metadata Suggestions
 
 Recommended repo description:
 
@@ -302,26 +247,6 @@ Recommended topics:
 - mcp
 - software-engineering
 - system-design
-
-## Quality Bar
-
-This repo should not become a link dump.
-
-Every track should answer:
-
-1. What does this teach?
-2. Why does it matter?
-3. What should I build?
-4. How do I know I am done?
-5. How does this help me become job-ready?
-
-Every project should produce:
-
-1. code
-2. README
-3. tests or evals
-4. notes
-5. build-log entry
 
 ## License
 

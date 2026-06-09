@@ -1,44 +1,44 @@
-# Mini-Project: Semantic Search Service
+# Mini Project — Tiny Retrieval Service
 
-## Objective
+## Goal
 
-Build a semantic search service over a real document corpus.
+Build a small retrieval service over a realistic document corpus.
+
+## What It Teaches
+
+Embeddings, chunking, metadata, vector search, keyword comparison, retrieval evaluation, and precision@k.
+
+## Suggested Stack
+
+TypeScript, Node.js, pgvector or Qdrant, optional Python for experiments.
 
 ## Requirements
 
-- Ingest at least 30 documents or document sections.
+- Ingest at least 30 document sections.
 - Chunk and embed the corpus.
 - Store vectors and metadata.
-- Implement search endpoint or CLI.
-- Return ranked results with snippets and metadata.
-- Track expected result quality for at least 20 queries.
+- Implement search by CLI or API.
+- Return ranked snippets with source metadata.
+- Evaluate at least 20 queries.
 
-## Suggested Corpora
+## Acceptance Criteria
 
-- API docs
-- Engineering runbooks
-- Issue comments
-- Product docs
-- Internal wiki-style notes
-
-## Evaluation
-
-Measure:
-
-- Top-1 hit rate
-- Top-3 hit rate
-- Bad retrieval examples
-- Query classes that perform poorly
-
-## Deliverables
-
-- Search service
-- Corpus ingestion script
-- Query eval set
-- Retrieval quality notes
+- [ ] Search returns ranked results with source IDs.
+- [ ] At least 20 queries have expected sources.
+- [ ] Precision@k or hit-rate notes exist.
+- [ ] Bad retrieval examples are documented.
+- [ ] Chunking choices are explained.
 
 ## Stretch Goals
 
+- Add metadata filters.
 - Add hybrid keyword plus vector search.
 - Add reranking.
-- Add metadata filters in the UI.
+
+## README Expectations
+
+Include corpus description, chunking strategy, retrieval method, eval set, results, and failure cases.
+
+## Estimated Time
+
+3-5 days.

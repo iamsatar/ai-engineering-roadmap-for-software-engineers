@@ -1,42 +1,46 @@
-# Mini-Project: Grounded RAG Assistant
+# Mini Project — Cited Q&A Bot
 
-## Objective
+## Goal
 
-Build an assistant that answers questions from your corpus using retrieved context and citations.
+Build a RAG assistant that answers questions from retrieved context with citations and refusal behavior.
+
+## What It Teaches
+
+RAG pipelines, query rewriting, retrieval, reranking, context packing, grounded generation, citations, abstention, and answer verification.
+
+## Suggested Stack
+
+TypeScript, Node.js, React or CLI, vector database, provider SDK, optional reranker.
 
 ## Requirements
 
 - Accept a user question.
-- Retrieve relevant context.
-- Generate an answer with citations.
-- Abstain when evidence is missing.
+- Retrieve relevant chunks.
 - Show retrieved sources.
+- Generate an answer with citations.
+- Refuse when evidence is weak.
 - Log query, retrieved IDs, answer, latency, and cost.
+- Evaluate at least 40 questions.
 
-## Evaluation
+## Acceptance Criteria
 
-Create at least 40 questions:
-
-- 20 answerable
-- 10 partially answerable
-- 10 unanswerable
-
-Score:
-
-- Answer correctness
-- Citation correctness
-- Abstention quality
-- Helpfulness
-
-## Deliverables
-
-- RAG app
-- Eval dataset
-- Eval report
-- Build-log entry
+- [ ] Answers include citations.
+- [ ] Retrieved chunks are inspectable.
+- [ ] Some unanswerable questions are refused.
+- [ ] Retrieval quality is evaluated separately from answer quality.
+- [ ] Failure modes are documented.
 
 ## Stretch Goals
 
 - Add reranking.
 - Add query rewriting.
 - Add answer verification before final response.
+- Add user feedback.
+
+## README Expectations
+
+Include architecture, sample questions, citation format, eval results, cost/latency notes, and known limitations.
+
+## Estimated Time
+
+4-7 days.

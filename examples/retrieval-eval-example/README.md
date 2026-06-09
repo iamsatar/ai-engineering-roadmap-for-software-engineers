@@ -25,7 +25,7 @@ RAG quality often fails at retrieval. If the right chunks are missing, the answe
 - [ ] Bad retrieval examples are saved.
 - [ ] The README explains what changed after tuning.
 
-## Optional Stretch Goals
+## Stretch Goals
 
 - Add keyword search.
 - Add hybrid search.

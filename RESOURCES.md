@@ -2,7 +2,7 @@
 
 This is not a link dump. Use these resources while building the track projects.
 
-## Track 00 — Orientation & Setup
+## Track 00 — Orientation & APIs
 
 ### OpenAI API Docs
 
@@ -265,7 +265,7 @@ Skip:
 
 - production optimization before measuring retrieval quality
 
-## Track 05 — Evaluation & Observability
+## Track 05 — Evals & Observability
 
 ### Ragas Docs
 
@@ -630,7 +630,7 @@ Skip:
 
 - unbounded autonomy
 
-## Use These GitHub Repos as References, Not Portfolio Projects
+## Reference Repos
 
 - https://github.com/iamsatar/learn-harness-engineering
 - https://github.com/iamsatar/hands-on-ai-engineering

@@ -1,45 +1,44 @@
-# Mini-Project: AI Security Red-Team Report
+# Mini Project — Prompt Injection Test Suite
 
-## Objective
+## Goal
 
-Red-team one AI project and document mitigations.
+Create a prompt injection and AI security test suite for one AI project.
+
+## What It Teaches
+
+Direct prompt injection, indirect prompt injection, data leakage, tool misuse, permission boundaries, audit logs, and residual risk.
+
+## Suggested Stack
+
+Markdown, existing AI project, JSON test cases, TypeScript test runner optional.
 
 ## Requirements
 
 - Identify assets, users, tools, and trust boundaries.
 - Create at least 20 attack or misuse cases.
-- Test prompt injection, data leakage, and tool misuse.
+- Test direct and indirect prompt injection.
+- Test data leakage and unauthorized tool use.
 - Add mitigations.
-- Retest the highest-risk cases.
+- Retest high-risk cases.
 
-## Report Sections
+## Acceptance Criteria
 
-- System overview
-- Threat model
-- Attack cases
-- Results
-- Mitigations
-- Residual risk
-- Recommendations
-
-## Evaluation
-
-Score each issue by:
-
-- Likelihood
-- Impact
-- Ease of exploitation
-- Mitigation confidence
-
-## Deliverables
-
-- Red-team report
-- Updated project code or docs
-- Retest results
-- Build-log entry
+- [ ] At least 20 attack cases exist.
+- [ ] Risks are scored by likelihood and impact.
+- [ ] Mitigations are concrete.
+- [ ] High-risk cases are retested.
+- [ ] Residual risk is documented.
 
 ## Stretch Goals
 
 - Add automated attack regression tests.
-- Add permission scopes for tools.
+- Add tool permission scopes.
 - Add audit log review workflow.
+
+## README Expectations
+
+Include threat model, attack cases, results, mitigations, residual risk, and retest notes.
+
+## Estimated Time
+
+2-4 days.

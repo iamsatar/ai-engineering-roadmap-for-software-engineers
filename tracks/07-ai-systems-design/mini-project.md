@@ -1,36 +1,44 @@
-# Mini-Project: AI Product Architecture Doc
+# Mini Project — AI System Design Document
 
-## Objective
+## Goal
 
-Write a production-style architecture document for an AI system.
+Write a production-style architecture document for a realistic AI system.
+
+## What It Teaches
+
+Problem framing, workflow design, data flow, model strategy, retrieval/tool design, eval planning, observability, security, rollout, and rollback.
+
+## Suggested Stack
+
+Markdown, Mermaid, architecture template, optional diagramming tool.
 
 ## Requirements
 
-- Describe users and workflows.
-- Include high-level architecture.
-- Include data flow.
+- Define users and workflows.
+- Include architecture and data-flow diagrams.
 - Specify model, retrieval, and tool strategies.
 - Define evals and observability.
 - Identify security risks.
 - Include rollout and rollback plan.
 
-## Suggested Systems
+## Acceptance Criteria
 
-- Engineering knowledge assistant
-- AI customer support copilot
-- PR review assistant
-- Incident response copilot
-- Sales workflow assistant
-
-## Deliverables
-
-- Architecture doc
-- Diagram
-- Risk register
-- Mock system design talking points
+- [ ] Another engineer can understand the design.
+- [ ] Failure modes are explicit.
+- [ ] Evals and observability are specified.
+- [ ] Cost and latency are discussed.
+- [ ] Rollout and rollback are documented.
 
 ## Stretch Goals
 
 - Add a cost model.
 - Add sequence diagrams.
 - Review the design with another engineer.
+
+## README Expectations
+
+Link the architecture doc from the related project README and summarize the design tradeoffs.
+
+## Estimated Time
+
+1-3 days.

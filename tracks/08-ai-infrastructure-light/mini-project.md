@@ -1,45 +1,45 @@
-# Mini-Project: Deployed AI Service
+# Mini Project — Simple LLM Router
 
-## Objective
+## Goal
 
-Deploy one previous AI project with operational controls.
+Build a small LLM router or gateway with operational controls.
+
+## What It Teaches
+
+Provider abstraction, routing, timeouts, retries, fallbacks, rate limits, caching, cost tracking, and runbooks.
+
+## Suggested Stack
+
+TypeScript, Node.js, LiteLLM optional, Redis optional, hosted deployment platform.
 
 ## Requirements
 
-- Deploy to a real environment.
-- Use environment-based secrets.
+- Route requests through one gateway layer.
 - Add request timeouts.
-- Add retry policy with limits.
+- Add retry limits.
 - Track cost and latency.
-- Add a simple runbook.
+- Document fallback behavior.
+- Include a simple runbook.
 
-## Optional Infrastructure
+## Acceptance Criteria
 
-- Queue for batch ingestion or evals
-- Cache for repeated responses or retrieval
-- Vector database service
-- Error tracking
-- Feature flag for model changes
-
-## Evaluation
-
-Test:
-
-- Cold start
-- Provider failure
-- Rate limit
-- Long request
-- Bad environment config
-
-## Deliverables
-
-- Live service or deployment notes
-- Runbook
-- Cost notes
-- Build-log entry
+- [ ] The service is deployable or has clear deployment notes.
+- [ ] Provider failures do not crash the service.
+- [ ] Cost and latency are visible.
+- [ ] Retry behavior is bounded.
+- [ ] A runbook exists.
 
 ## Stretch Goals
 
-- Add model routing.
+- Add model fallback.
 - Add budget alerts.
-- Add load testing for realistic usage.
+- Add caching.
+- Add basic load testing.
+
+## README Expectations
+
+Include setup, routing policy, environment variables, failure handling, cost/latency notes, and runbook.
+
+## Estimated Time
+
+3-5 days.

@@ -18,7 +18,7 @@ By the end of this track, the learner should be able to:
 - Protect secrets and sensitive data.
 - Write a red-team report and mitigation plan.
 
-## Core Concepts
+## Core Topics
 
 - Prompt injection
 - Data exfiltration

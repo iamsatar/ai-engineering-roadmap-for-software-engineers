@@ -19,7 +19,7 @@ By the end of this track, the learner should be able to:
 - Add stop conditions and approval gates.
 - Explain MCP in practical terms.
 
-## Core Concepts
+## Core Topics
 
 - Tool calling
 - Function schemas
@@ -93,6 +93,26 @@ Skip: complex graphs for simple tasks.
 ## Hands-On Work
 
 Define tools, build a bounded loop, persist task state, add retries, validate outputs, and require approval before side effects.
+
+## Agent Loop Cost Warning
+
+Agents can burn tokens quickly because every loop iteration may include:
+
+- current goal
+- context
+- tool outputs
+- previous attempts
+- verification steps
+- retries
+
+Before running open-ended loops:
+
+- set a max iteration count
+- set a max cost per run
+- log token usage
+- use small test cases first
+- prefer closed loops before open-ended autonomy
+- add stop conditions.
 
 ## Mini Project
 
