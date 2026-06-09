@@ -1,4 +1,4 @@
-# Mini Project — AI System Design Document
+# Mini-Project: AI System Design Document
 
 ## Goal
 

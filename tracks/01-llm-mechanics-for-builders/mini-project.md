@@ -1,4 +1,4 @@
-# Mini Project — Tokenizer and Embedding Playground
+# Mini-Project: Tokenizer and Embedding Playground
 
 ## Goal
 

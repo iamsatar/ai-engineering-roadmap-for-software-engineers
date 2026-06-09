@@ -1,4 +1,4 @@
-# Mini Project — Simple Agent Loop
+# Mini-Project: Simple Agent Loop
 
 ## Goal
 

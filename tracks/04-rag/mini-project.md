@@ -1,4 +1,4 @@
-# Mini Project — Cited Q&A Bot
+# Mini-Project: Cited Q&A Bot
 
 ## Goal
 

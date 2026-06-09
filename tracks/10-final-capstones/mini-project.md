@@ -1,4 +1,4 @@
-# Mini Project — Final Capstone Portfolio
+# Mini-Project: Final Capstone Portfolio
 
 ## Goal
 

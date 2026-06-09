@@ -1,4 +1,4 @@
-# Mini Project — Simple LLM Router
+# Mini-Project: Simple LLM Router
 
 ## Goal
 

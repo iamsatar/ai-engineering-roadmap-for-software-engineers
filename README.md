@@ -10,7 +10,7 @@ and now want to build, evaluate, operate, and explain production AI systems.
 
 1. Read [ROADMAP.md](./ROADMAP.md) for the full learning sequence.
 2. Pick a pace in [STUDY_PLAN.md](./STUDY_PLAN.md).
-3. Start with [tracks/00-orientation-and-setup/doc.md](./tracks/00-orientation-and-setup/doc.md).
+3. Start with [Track 00 — Orientation & Setup](./tracks/00-orientation-and-setup/doc.md).
 4. Build every mini-project before moving on.
 5. Write a short build-log entry after each project.
 6. Use [PROJECTS.md](./PROJECTS.md) when starting capstones.
@@ -68,7 +68,7 @@ Typical work includes:
 | 07    | [AI Systems Design](./tracks/07-ai-systems-design/doc.md)                               | AI System Design Document          |
 | 08    | [AI Infrastructure Light](./tracks/08-ai-infrastructure-light/doc.md)                   | Simple LLM Router                  |
 | 09    | [Security & Safety](./tracks/09-security-and-safety/doc.md)                             | Prompt Injection Test Suite        |
-| 10    | [Final Capstones](./tracks/10-final-capstones/doc.md)                                   | Final Capstone Portfolio           |
+| 10    | [Final Capstones](./tracks/10-final-capstones/doc.md)                                   | Portfolio-grade projects           |
 
 ## Progress Tracker
 

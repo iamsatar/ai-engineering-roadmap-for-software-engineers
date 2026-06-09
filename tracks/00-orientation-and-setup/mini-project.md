@@ -1,4 +1,4 @@
-# Mini Project — LLM API Healthcheck
+# Mini-Project: LLM API Healthcheck
 
 ## Goal
 

@@ -1,4 +1,4 @@
-# Mini Project — RAG Eval Harness
+# Mini-Project: RAG Eval Harness
 
 ## Goal
 

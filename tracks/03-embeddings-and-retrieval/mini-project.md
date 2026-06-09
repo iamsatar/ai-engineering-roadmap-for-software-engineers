@@ -1,4 +1,4 @@
-# Mini Project — Tiny Retrieval Service
+# Mini-Project: Tiny Retrieval Service
 
 ## Goal
 

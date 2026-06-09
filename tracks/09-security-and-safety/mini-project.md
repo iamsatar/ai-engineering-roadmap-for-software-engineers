@@ -1,4 +1,4 @@
-# Mini Project — Prompt Injection Test Suite
+# Mini-Project: Prompt Injection Test Suite
 
 ## Goal
 

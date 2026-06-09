@@ -1,4 +1,4 @@
-# Mini Project — Prompt-as-Code Module
+# Mini-Project: Prompt-as-Code Module
 
 ## Goal
 

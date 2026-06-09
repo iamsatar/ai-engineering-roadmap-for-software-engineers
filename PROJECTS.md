@@ -76,7 +76,7 @@ Every capstone README should include:
 - Future improvements
 - Resume bullets
 
-## Mini Project — LLM API Healthcheck
+## Mini-Project: LLM API Healthcheck
 
 Also known as: AI Engineering Workspace
 
@@ -119,7 +119,7 @@ Explain setup, environment variables, run commands, and example output.
 
 1-2 days.
 
-## Mini Project — Tokenizer and Embedding Playground
+## Mini-Project: Tokenizer and Embedding Playground
 
 Also known as: LLM Behavior Playground
 
@@ -161,7 +161,7 @@ Include experiment table, screenshots or CLI output, and key lessons.
 
 2-3 days.
 
-## Mini Project — Prompt-as-Code Module
+## Mini-Project: Prompt-as-Code Module
 
 Also known as: Prompt Regression Harness
 
@@ -204,7 +204,7 @@ Document the task, prompt contract, eval cases, and failure examples.
 
 2-4 days.
 
-## Mini Project — Tiny Retrieval Service
+## Mini-Project: Tiny Retrieval Service
 
 Also known as: Semantic Search Service
 
@@ -248,7 +248,7 @@ Explain corpus, chunking, retrieval method, eval set, and results.
 
 3-5 days.
 
-## Mini Project — Cited Q&A Bot
+## Mini-Project: Cited Q&A Bot
 
 Also known as: Grounded RAG Assistant
 
@@ -293,7 +293,7 @@ Include architecture, sample questions, citations, eval results, and failure mod
 
 4-7 days.
 
-## Mini Project — RAG Eval Harness
+## Mini-Project: RAG Eval Harness
 
 Also known as: Eval and Observability Suite
 
@@ -338,7 +338,7 @@ Explain metrics, dataset, trace format, results, and release decision.
 
 3-5 days.
 
-## Mini Project — Simple Agent Loop
+## Mini-Project: Simple Agent Loop
 
 Also known as: Tool-Using Task Agent
 
@@ -382,7 +382,7 @@ Document goal, tools, loop design, stop conditions, traces, and safety boundarie
 
 4-7 days.
 
-## Mini Project — AI System Design Document
+## Mini-Project: AI System Design Document
 
 Also known as: AI Product Architecture Doc
 
@@ -425,7 +425,7 @@ Link the architecture doc from the related project README.
 
 1-3 days.
 
-## Mini Project — Simple LLM Router
+## Mini-Project: Simple LLM Router
 
 Also known as: LLM Router / Gateway
 
@@ -469,7 +469,7 @@ Include setup, routing policy, failure handling, and runbook.
 
 3-5 days.
 
-## Mini Project — Prompt Injection Test Suite
+## Mini-Project: Prompt Injection Test Suite
 
 Also known as: AI Security Red-Team Report
 
