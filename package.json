@@ -1,7 +1,9 @@
 {
+  "type": "module",
   "scripts": {
     "format:md": "prettier --write \"**/*.md\"",
-    "check:md": "prettier --check \"**/*.md\""
+    "check:md": "prettier --check \"**/*.md\"",
+    "check:md-structure": "node scripts/check-markdown-structure.js"
   },
   "devDependencies": {
     "prettier": "^3.3.0"
