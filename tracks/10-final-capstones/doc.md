@@ -1,50 +1,148 @@
-# 10: Final Capstones
+# Track 10 — Final Capstones
 
-## Goal
+## Summary
 
-Build one production-grade portfolio project that proves you can design, implement, evaluate, operate, and explain an AI system.
+This track turns your learning into portfolio-grade AI engineering projects.
+
+## Why This Matters
+
+Hiring teams need evidence that you can build, evaluate, operate, and explain real AI systems. Capstones turn practice into proof.
+
+## Learning Objectives
+
+By the end of this track, the learner should be able to:
+
+- Scope a realistic AI product.
+- Write architecture and eval documentation.
+- Build a working application.
+- Add observability, cost, latency, and security notes.
+- Explain the project in interviews.
+
+## Core Concepts
+
+- Product workflow
+- Architecture
+- Evals
+- Observability
+- Security
+- Demo design
+- Resume storytelling
+
+## Mental Model
+
+A capstone is not just code. It is a case study showing problem framing, system design, implementation, measurement, safety, and communication.
+
+## Recommended Resources
+
+### OpenAI Production Best Practices
+
+Link: https://platform.openai.com/docs/guides/production-best-practices
+
+Why it matters: Helps harden capstones beyond demos.
+
+Focus on: reliability, safety, monitoring, cost.
+
+Skip: provider-specific details not relevant to your project.
+
+### Langfuse Docs
+
+Link: https://langfuse.com/docs
+
+Why it matters: Capstones need traces and quality evidence.
+
+Focus on: traces, scores, datasets.
+
+Skip: enterprise workflows.
+
+### OWASP Top 10 for LLM Applications
+
+Link: https://owasp.org/www-project-top-10-for-large-language-model-applications/
+
+Why it matters: Capstones should include security thinking.
+
+Focus on: prompt injection, sensitive data, excessive agency.
+
+Skip: compliance-only framing.
+
+## Hands-On Work
+
+Choose one capstone, write the architecture doc, build a thin end-to-end slice, add AI orchestration, add evals, add observability, harden safety, and polish the demo.
+
+## Mini Project
+
+Final capstone: one production-grade AI system minimum, or three substantial systems for the strongest job-ready portfolio.
+
+## Deliverables
+
+- Code
+- README
+- Tests or evals where applicable
+- Notes
+- Build-log entry
+
+## Acceptance Criteria
+
+The learner can move on only when:
+
+- The capstone runs and solves a realistic workflow.
+- The README, architecture doc, eval report, and security notes exist.
+- Cost and latency are discussed.
+- The demo is understandable in under five minutes.
+
+## Common Mistakes
+
+- Starting three projects and finishing none.
+- Building a flashy demo with no evals.
+- Hiding limitations.
+- Skipping security notes.
+- Writing resume bullets that do not mention measured quality.
+
+## Interview Practice
+
+- Why did you choose this architecture?
+- How do you know the system works?
+- What fails?
+- What does it cost?
+- How would you deploy it to customers?
 
 ## Capstone Standard
 
-A capstone should include:
+There are two completion levels.
 
-- Realistic user workflow
-- Working application
-- Retrieval, tools, agents, or structured outputs where appropriate
-- Evals and failure analysis
-- Observability for model calls and tool calls
-- Security and safety notes
-- Architecture document
-- Demo script or video
-- Resume bullets
+### Minimum Completion
 
-## Recommended Capstones
+Build one production-grade capstone deeply.
+
+It must include:
+
+- working application
+- strong README
+- architecture document
+- eval report
+- observability notes
+- cost and latency notes
+- security notes
+- demo video or screenshots
+- resume bullet points
+
+### Job-Ready Completion
+
+Build three substantial capstones:
 
 1. Engineering Knowledge Assistant
 2. Autonomous PR Review Agent
 3. Agentic Business Workflow Copilot
 
-## Build Sequence
+If you are time-constrained, build one deeply.
+If you want the strongest portfolio signal, build all three.
+For most job applications, two strong capstones are better than three unfinished ones.
 
-1. Define the user and workflow.
-2. Write the architecture doc.
-3. Build a thin end-to-end slice.
-4. Add AI orchestration.
-5. Add evals.
-6. Add observability.
-7. Add security mitigations.
-8. Polish the demo.
-9. Write job-ready case study notes.
+## Move On When
 
-## Quality Bar
-
-The project should be good enough that an interviewer can ask:
-
-- Why did you choose this architecture?
-- How do you know it works?
-- What fails?
-- How do you detect bad outputs?
-- What does it cost?
-- How would you deploy it to customers?
-
-And you can answer concretely.
+- [ ] You have at least one production-grade capstone.
+- [ ] You have a strong README.
+- [ ] You have an architecture document.
+- [ ] You have an eval report.
+- [ ] You have security notes.
+- [ ] You have demo video or screenshots.
+- [ ] You have resume bullet points.

@@ -2,74 +2,139 @@
 
 The best portfolio does not say "I know AI." It shows that you can ship, evaluate, debug, and explain AI systems under real constraints.
 
-## Target Roles
+## Roles To Target
 
-### AI Engineer
+- AI Engineer
+- Applied AI Engineer
+- AI Applications Engineer
+- Agent Engineer
+- AI Platform Engineer
+- Forward Deployed Engineer
+- Product Engineer, AI
+- Full Stack AI Engineer
 
-Signals:
+## Roles To Deprioritize
 
-- Builds product features with LLMs and AI APIs
-- Understands retrieval, evals, observability, and deployment
-- Can reason through model selection and UX tradeoffs
+- Prompt Engineer only
+- AI Content Specialist
+- ML Researcher
+- Deep Learning Research Engineer
+- Computer Vision Engineer
+- Reinforcement Learning Engineer
 
-### Applied AI Engineer
+These roles are not bad roles. They are just not aligned with this roadmap. This roadmap is about applied AI systems built by software engineers, not content operations, model research, computer vision, reinforcement learning, or training deep models from scratch.
 
-Signals:
+# Job Readiness Checklist
 
-- Turns business problems into AI workflows
-- Integrates models with existing systems
-- Designs reliable human-in-the-loop flows
+You are ready to apply when you can:
+
+## Fundamentals
+
+- [ ] Explain tokenization in practical terms.
+- [ ] Explain embeddings and similarity search.
+- [ ] Explain context windows and context budgeting.
+- [ ] Explain temperature, top-p, and max tokens.
+
+## RAG
+
+- [ ] Build a working RAG app with citations.
+- [ ] Explain chunking tradeoffs.
+- [ ] Explain vector search vs keyword search vs hybrid search.
+- [ ] Explain reranking.
+- [ ] Evaluate retrieval quality.
+- [ ] Handle unanswerable questions.
+
+## Agents
+
+- [ ] Build a tool-calling agent.
+- [ ] Explain the loop: goal -> plan -> act -> observe -> verify -> iterate.
+- [ ] Add stop conditions.
+- [ ] Add safety boundaries.
+- [ ] Explain when not to use agents.
+
+## Evals
+
+- [ ] Build a golden dataset.
+- [ ] Run regression tests.
+- [ ] Explain LLM-as-judge limitations.
+- [ ] Measure faithfulness or groundedness.
+- [ ] Track cost and latency.
+
+## Systems Design
+
+- [ ] Design a production RAG system.
+- [ ] Design a tool-using agent system.
+- [ ] Explain caching, rate limits, queues, retries, and observability.
+- [ ] Estimate cost per request.
+- [ ] Discuss p95 latency tradeoffs.
+
+## Security
+
+- [ ] Explain prompt injection.
+- [ ] Test indirect prompt injection in retrieved docs.
+- [ ] Protect secrets.
+- [ ] Limit tool permissions.
+- [ ] Add human approval for risky actions.
+
+## Portfolio
+
+- [ ] At least one deployed production-grade capstone.
+- [ ] Ideally three capstones.
+- [ ] Strong README for each.
+- [ ] Architecture docs.
+- [ ] Eval reports.
+- [ ] Demo video or screenshots.
+- [ ] Resume bullets.
+
+## Capstone Standard
+
+There are two completion levels.
+
+### Minimum Completion
+
+Build one production-grade capstone deeply.
+
+It must include:
+
+- working application
+- strong README
+- architecture document
+- eval report
+- observability notes
+- cost and latency notes
+- security notes
+- demo video or screenshots
+- resume bullet points
+
+### Job-Ready Completion
+
+Build three substantial capstones:
+
+1. Engineering Knowledge Assistant
+2. Autonomous PR Review Agent
+3. Agentic Business Workflow Copilot
+
+If you are time-constrained, build one deeply.
+If you want the strongest portfolio signal, build all three.
+For most job applications, two strong capstones are better than three unfinished ones.
+
+## Role Signals
+
+### AI Engineer / Applied AI Engineer
+
+Show that you can build product features with LLMs, retrieval, evals, observability, and deployment constraints.
 
 ### Agent Engineer
 
-Signals:
-
-- Builds tool-using agents with bounded autonomy
-- Handles state, planning, retries, approvals, and failure recovery
-- Understands MCP and tool interface design
+Show bounded agents with tool schemas, state, stop conditions, verification, and approval gates.
 
 ### AI Platform Engineer
 
-Signals:
-
-- Builds shared AI infrastructure
-- Works on model routing, eval platforms, tracing, vector stores, and governance
-- Cares about reliability, cost, and developer experience
+Show shared infrastructure: routing, tracing, evals, model gateway patterns, cost controls, and developer experience.
 
 ### Forward Deployed Engineer
 
-Signals:
-
-- Works close to customers and messy real-world workflows
-- Can prototype quickly and harden what matters
-- Communicates tradeoffs clearly with technical and non-technical stakeholders
-
-## Portfolio Requirements
-
-At minimum, prepare:
-
-- One polished capstone repository
-- One architecture doc
-- One eval report
-- One security and safety report
-- One demo video or live demo script
-- Three concise case-study bullets for your resume
-
-## Interview Topics
-
-Be ready to discuss:
-
-- How LLMs use context
-- Token and latency tradeoffs
-- Structured outputs and tool calling
-- Embeddings and vector search
-- RAG failure modes
-- Evaluation design
-- Observability and debugging
-- Agent loop boundaries
-- Prompt injection and data leakage
-- Human approval design
-- Cost and rate-limit management
+Show that you can understand messy workflows, prototype quickly, integrate tools, explain tradeoffs, and harden what matters.
 
 ## Resume Bullet Formula
 

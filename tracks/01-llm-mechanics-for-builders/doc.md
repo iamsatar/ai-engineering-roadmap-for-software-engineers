@@ -1,48 +1,111 @@
-# 01: LLM Mechanics for Builders
+# Track 01 — LLM Mechanics for Builders
 
-## Goal
+## Summary
 
-Understand enough about LLM behavior to design reliable AI product features.
+This track teaches the practical model behavior you need to design reliable LLM features.
 
-## Concepts
+## Why This Matters
 
-- Tokens and tokenization
+You do not need to train models from scratch, but you do need to understand tokens, context, sampling, structured outputs, and model tradeoffs.
+
+## Learning Objectives
+
+By the end of this track, the learner should be able to:
+
+- Explain tokenization in product terms.
+- Reason about context windows and context budgets.
+- Compare temperature, output length, latency, and cost.
+- Use structured outputs instead of fragile text parsing.
+- Choose models based on task constraints.
+
+## Core Concepts
+
+- Tokens
 - Context windows
-- Sampling and temperature
-- Instruction hierarchy
+- Sampling
 - Structured outputs
-- Function and tool calling
-- Latency and cost tradeoffs
+- Tool/function calling
 - Model selection
+- Latency and cost
 
-## Builder Mental Model
+## Mental Model
 
-An LLM predicts likely next tokens conditioned on context. As a builder, your job is to shape context, constrain outputs, verify results, and design fallback paths.
+An LLM predicts likely next tokens conditioned on context. Your job is to shape context, constrain outputs, verify results, and design fallbacks.
+
+## Recommended Resources
+
+### Karpathy Tokenizer Video
+
+Link: https://www.youtube.com/watch?v=zduSFxRajkE
+
+Why it matters: Tokenization directly affects context and cost.
+
+Focus on: how text becomes tokens.
+
+Skip: implementation details that do not affect app design.
+
+### Illustrated Transformer
+
+Link: https://jalammar.github.io/illustrated-transformer/
+
+Why it matters: Builds intuition for attention and context.
+
+Focus on: attention and sequence processing.
+
+Skip: math derivations.
+
+### Hugging Face LLM Course
+
+Link: https://huggingface.co/learn/llm-course
+
+Why it matters: Gives broader LLM vocabulary.
+
+Focus on: inference basics.
+
+Skip: training-heavy sections.
 
 ## Hands-On Work
 
-- Compare token counts for code, prose, JSON, and tables.
-- Vary temperature and observe output stability.
-- Force JSON output and test invalid cases.
-- Compare a small fast model with a larger capable model.
+Compare token counts for prose, code, JSON, and tables. Vary temperature, model, schema constraints, and output length.
 
-## Failure Modes
+## Mini Project
 
-- Output does not match schema.
-- Model follows user text that should be treated as data.
-- Long context hides important instructions.
-- High temperature creates inconsistent behavior.
-- Cheap model fails at complex reasoning.
+LLM Behavior Playground: a tool for comparing prompts, models, settings, token usage, cost, and structured-output reliability.
 
 ## Deliverables
 
-- LLM behavior notes
-- Token and cost examples
-- Structured output experiments
-- Model comparison table
+- Code
+- README
+- Tests or evals where applicable
+- Notes
+- Build-log entry
+
+## Acceptance Criteria
+
+The learner can move on only when:
+
+- Token usage is visible for experiments.
+- At least five model behavior experiments are documented.
+- Structured output validation catches failures.
+- Cost and latency tradeoffs are described.
+
+## Common Mistakes
+
+- Assuming temperature is the only reliability control.
+- Parsing free text when a schema is possible.
+- Ignoring token cost until late.
+- Using the largest model for every task.
 
 ## Interview Practice
 
-- Explain why tokenization matters in an AI app.
-- Explain how you choose between two models.
-- Explain why structured outputs are preferable to parsing free text.
+- Why does tokenization matter?
+- How do you choose between models?
+- How do structured outputs reduce production risk?
+- What causes long-context prompts to fail?
+
+## Move On When
+
+- [ ] You can explain tokens to another engineer.
+- [ ] You have compared at least two models.
+- [ ] You have validated structured outputs.
+- [ ] You can estimate cost for a small workflow.

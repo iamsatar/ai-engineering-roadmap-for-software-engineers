@@ -81,17 +81,61 @@ Deliverable: a red-team report and mitigation plan for one of your projects.
 
 ### Track 10: Final Capstones
 
-Build one production-grade portfolio project.
+Build at least one production-grade portfolio project. One deep capstone is the minimum completion level. Three substantial capstones is the job-ready path.
 
-Required artifacts:
+## Capstone Standard
 
-- Working application
-- Architecture document
-- Eval report
-- Security and safety notes
-- Demo script or video outline
-- Build log
-- Resume bullet points
+There are two completion levels.
+
+### Minimum Completion
+
+Build one production-grade capstone deeply.
+
+It must include:
+
+- working application
+- strong README
+- architecture document
+- eval report
+- observability notes
+- cost and latency notes
+- security notes
+- demo video or screenshots
+- resume bullet points
+
+### Job-Ready Completion
+
+Build three substantial capstones:
+
+1. Engineering Knowledge Assistant
+2. Autonomous PR Review Agent
+3. Agentic Business Workflow Copilot
+
+If you are time-constrained, build one deeply.
+If you want the strongest portfolio signal, build all three.
+For most job applications, two strong capstones are better than three unfinished ones.
+
+## Role-Based Paths
+
+### AI Engineer / Applied AI Engineer
+
+Prioritize RAG, evals, agents, system design, and Capstone 1 + Capstone 2.
+
+### Agent Engineer
+
+Prioritize tool calling, agent loops, MCP, memory and state, verification, and stop conditions.
+
+### Forward Deployed Engineer
+
+Prioritize business workflow analysis, RAG over messy data, tool actions, human approval, product UX, and customer-facing explanation.
+
+### AI Platform Engineer
+
+Prioritize evals, observability, routing, caching, cost controls, latency controls, and gateway patterns.
+
+### Full Stack AI Engineer
+
+Prioritize product UX, RAG, tool calling, streaming UI, auth, and deployment.
 
 ## Completion Standard
 

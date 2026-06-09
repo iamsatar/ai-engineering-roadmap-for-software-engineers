@@ -1,10 +1,24 @@
-# 05: Evaluation and Observability
+# Track 05 — Evaluation and Observability
 
-## Goal
+## Summary
 
-Learn how to measure and debug AI system quality before and after deployment.
+This track teaches how to measure and debug AI system quality before and after deployment.
 
-## Concepts
+## Why This Matters
+
+AI systems can look good in demos and fail in production. Evals and traces turn vague quality concerns into inspectable evidence.
+
+## Learning Objectives
+
+By the end of this track, the learner should be able to:
+
+- Build a golden dataset.
+- Run regression evals.
+- Use human review and LLM-as-judge carefully.
+- Trace model, retrieval, and tool steps.
+- Track cost, latency, and quality.
+
+## Core Concepts
 
 - Golden datasets
 - Human evaluation
@@ -12,39 +26,96 @@ Learn how to measure and debug AI system quality before and after deployment.
 - Regression tests
 - Traces
 - Cost and latency monitoring
-- User feedback
-- Online versus offline evals
+- Online and offline evals
 
-## Evaluation Types
+## Mental Model
 
-- Unit-style checks for schema and tool calls
-- Dataset evals for task quality
-- Human review for nuanced judgment
-- Production monitoring for drift and incidents
+Evaluation asks whether the system is good enough. Observability asks why it behaved the way it did. You need both.
+
+## Recommended Resources
+
+### Ragas Docs
+
+Link: https://docs.ragas.io
+
+Why it matters: RAG-focused evaluation methods.
+
+Focus on: faithfulness and context metrics.
+
+Skip: blind trust in automatic metrics.
+
+### DeepEval Docs
+
+Link: https://docs.confident-ai.com
+
+Why it matters: Useful for LLM app regression testing.
+
+Focus on: test cases and metrics.
+
+Skip: giant suites before good examples.
+
+### Langfuse Docs
+
+Link: https://langfuse.com/docs
+
+Why it matters: Trace visibility is essential for debugging.
+
+Focus on: traces, scores, datasets.
+
+Skip: enterprise workflows at first.
+
+### OpenTelemetry GenAI
+
+Link: https://opentelemetry.io/docs/specs/semconv/gen-ai/
+
+Why it matters: Standardizes GenAI telemetry.
+
+Focus on: model-call attributes.
+
+Skip: custom standards before reading the existing one.
 
 ## Hands-On Work
 
-- Build an eval set for your RAG assistant.
-- Add automated scoring where possible.
-- Add human review fields.
-- Instrument traces for model calls and retrieval steps.
+Add an eval runner, result history, trace logs, and an eval report to a previous AI project.
 
-## Failure Modes
+## Mini Project
 
-- Eval set is too easy.
-- Judge model rewards style over correctness.
-- Metrics do not match user value.
-- Traces omit the context needed for debugging.
+Eval and Observability Suite: an eval harness plus trace/cost/latency reporting for a RAG or agent project.
 
 ## Deliverables
 
-- Eval dataset
-- Eval runner
-- Trace view or logs
-- Quality report
+- Code
+- README
+- Tests or evals where applicable
+- Notes
+- Build-log entry
+
+## Acceptance Criteria
+
+The learner can move on only when:
+
+- Eval cases run from one command.
+- Results are stored by version.
+- Failures are categorized.
+- Traces include the context needed for debugging.
+
+## Common Mistakes
+
+- Creating evals that are too easy.
+- Letting judge models reward style over correctness.
+- Tracking latency but not quality.
+- Logging traces without retrieved context or tool results.
 
 ## Interview Practice
 
-- Explain how you evaluate a RAG assistant.
-- Explain when LLM-as-judge is useful or risky.
-- Explain what you log for AI observability.
+- How do you evaluate a RAG assistant?
+- When is LLM-as-judge useful or risky?
+- What should be traced in an AI app?
+- How do evals fit into CI?
+
+## Move On When
+
+- [ ] You have a golden dataset.
+- [ ] You can run regression evals.
+- [ ] You can inspect traces.
+- [ ] You can explain one quality regression.

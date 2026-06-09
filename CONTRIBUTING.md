@@ -11,6 +11,26 @@ Contributions are welcome if they make the roadmap more useful, more accurate, o
 - Add resources sparingly.
 - Include evaluation, observability, and safety whenever possible.
 
+## Quality Bar
+
+This repo should not become a link dump.
+
+Every track should answer:
+
+1. What does this teach?
+2. Why does it matter?
+3. What should I build?
+4. How do I know I am done?
+5. How does this help me become job-ready?
+
+Every project should produce:
+
+1. code
+2. README
+3. tests or evals
+4. notes
+5. build-log entry
+
 ## Good Contributions
 
 - Better mini-project specs
